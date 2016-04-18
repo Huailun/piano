@@ -9,7 +9,7 @@
 			<img src="../images/images.png">
 		</header>
 		<section>
-		<h2>How to have fun with piano</h2>
+		<h2>How to have fun with piano?</h2>
 			<img src="../images/imagesHAEPXJPK.jpg">
 		<h2>Must Knows</h2>
 		<ul>
