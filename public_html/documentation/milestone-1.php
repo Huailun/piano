@@ -11,7 +11,7 @@
 		<section>
 		<h2>How to have fun with piano?</h2>
 			<img src="../images/imagesHAEPXJPK.jpg">
-		<h2>Must Knows</h2>
+		<h2>Must Know</h2>
 		<ul>
 			<li>How to number your fingers</li>
 			<li>What to read between lines & spaces</li>
@@ -20,7 +20,7 @@
 		</ul>
 		</section>
 		<footer>
-			<p>The persona of this webpage is to whom has interested in playing piano.</p>
+			<p>The persona of this web page is to whom has interested in playing piano.</p>
 		</footer>
 	</body>
 </html>
