@@ -30,7 +30,8 @@
 			<h2>Persona</h2>
 				<p>Name: David Wang</p>
 				<p>Age: 44</p>
-				<p>Status: David Wang and his wife both have full jobs. While they are busy with their own works, they still need to take care of their three young children. They have heard of many good benefits for their children to have piano lessons. But for their busy working schedule, they only have few minutes at night after their children go to bed to do the research.  </p>
+				<p>Status: David Wang and his wife both have full jobs. While they are busy with their own works, they still need to take care of their three young children. They have heard of many good benefits for their children to have piano lessons. But for their busy working schedule, they only have few minutes at night after their children go to bed to do the research.</p>
+			   <p>Goal: This website can provide key information of how to start up, basic music theory and how to apply it on keyboards in a fast and effective way.</p>
 		</footer>
 	</body>
 </html>
