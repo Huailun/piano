@@ -23,9 +23,14 @@
 			<h2>Purpose, Audience & Goal</h2>
 			<h3>Purpose</h3>
 			<p>This website is to give preliminary information for people who are interested in learning piano.</p>
-			<h3>Audience
+			<h3>Audience</h3>
 			<p>This site is designed for absolute beginners to take the first step on learning piano. Also for parents who are interested to have some basic ideas for their children's piano journey.</p>
-			<p>The persona of this web page is to whom has interested in playing piano.</p>
+			<h3>Goal</h3>
+			<p> The goal is to reach people who like to learn and enjoy playing piano and encourage them to take first step with some fundamental information.</p>
+			<h2>Persona</h2>
+				<p>Name: David Wang</p>
+				<p>Age: 44</p>
+				<p></p>
 		</footer>
 	</body>
 </html>
