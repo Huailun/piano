@@ -30,7 +30,7 @@
 			<h2>Persona</h2>
 				<p>Name: David Wang</p>
 				<p>Age: 44</p>
-				<p></p>
+				<p>David Wang and his wife both have full jobs. While they are busy with their own works, they still need to take care of their three young children. They have heard of many good benefits for their children to have piano lessons. But for their busy working schedule, they only have few minutes at night after their children go to bed to do the research.  </p>
 		</footer>
 	</body>
 </html>
