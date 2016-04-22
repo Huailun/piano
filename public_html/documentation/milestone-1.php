@@ -18,8 +18,7 @@
 			<li>When is the best time to start</li>
 			<li>Useful links</li>
 		</ul>
-		</section>
-		<footer>
+
 			<h2>Purpose, Audience & Goal</h2>
 			<h3>Purpose</h3>
 			<p>This website is to give preliminary information for people who are interested in learning piano.</p>
@@ -34,6 +33,6 @@
 			   <p>Goal: This website can provide key information of how to start up, basic music theory and how to apply it on keyboards in a fast and effective way.</p>
 			<h2>Use Case</h2>
 			<p>David wang and his wife have been doing researches online for a while to find a way to take the first step of their children's piano lessons. The amount of information is huge. For they only have very little knowledge about piano and music, the overwhelming information makes it very difficult for them to make a final decision. When they find this website, because it has designed for absolute beginners and parents or grand parents who have no music background to take the first step. They fell this is a useful website for them.</p>
-		</footer>
+		</section>	
 	</body>
 </html>
