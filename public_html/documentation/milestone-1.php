@@ -18,7 +18,7 @@
 			<li>When is the best time to start</li>
 			<li>Useful links</li>
 		</ul>
-
+		<h2>Send a message</h2>
 			<h2>Purpose, Audience & Goal</h2>
 			<h3>Purpose</h3>
 			<p>This website is to give preliminary information for people who are interested in learning piano.</p>
