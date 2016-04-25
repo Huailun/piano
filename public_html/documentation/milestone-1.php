@@ -3,7 +3,9 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<title>Learn to play piano</title>
+		<link type="text/css" href="css/styles.css" rel="stylesheet" />
 	</head>
+
 	<body>
 		<header><h1>Bach gave us God's word.Mozart gave us God's laughter.Beethoven gave us God's fire.God gave us Music that we might pray without words. </h1>
 			<img src="../images/images.png" alt="keyboard">
