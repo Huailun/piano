@@ -6,11 +6,11 @@
 	</head>
 	<body>
 		<header><h1>Bach gave us God's word.Mozart gave us God's laughter.Beethoven gave us God's fire.God gave us Music that we might pray without words. </h1>
-			<img src="../images/images.png">
+			<img src="../images/images.png" alt="keyboard">
 		</header>
 		<section>
 			<h2>How to have fun with piano?</h2>
-			<img src="../images/imagesHAEPXJPK.jpg">
+			<img src="../images/imagesHAEPXJPK.jpg" alt="piano">
 		<h2>Must Know</h2>
 		<ul>
 			<li>How to number your fingers</li>
