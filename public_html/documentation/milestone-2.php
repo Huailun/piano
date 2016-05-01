@@ -5,6 +5,7 @@
 		<title>milestone-2</title>
 	</head>
 	<body>
+		<h1>Content Strategy</h1>
 
 	</body>
 </html>
