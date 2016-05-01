@@ -24,7 +24,8 @@
 					<li>How to chose the right piano - this part will provide useful information of how to pick the right first piano</li>
 					<li>When to start - Give user an idea to decide the right time to begin a lesson.</li>
 				</ol><br>
-			
+				<p><b>About Music:</b>This section will have basic of music theory and piano fundamental knowledge. Such as how to read music between lines and spaces. The stories of treble and bass clef. The music notation in rhythm. What is temple? (From Adgio to Presto). The five finger position on piano. Some finger exercise suggestions. </p><br>
+				<p><b>Resources</b>Some useful and fun link relate to piano and sheet music.</p><br>
 		</main>
 
 
