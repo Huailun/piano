@@ -15,7 +15,17 @@
 					<li>Resources</li>
 				</ul>
 		</section>
-		<h1>Content Strategy</h1>
+		<main>
+			<h1>Content Strategy</h1>
+				<p><b>About Me: </b>A brief information about my name and educational back grouond in piano. Then my personal experices as a collaborative pianist and piano teacher. The third part will be my transition to be a software developer. The last will be my future goal to put these two different roles together to help people who have interested in learning piano.</p><br>
+				<p><b>About Piano:</b>These part will contain information for piano itself. it will have at least three parts in the content.</p>
+				<ol>
+					<li>Why piano - it will give benefit of start music lesson in piano</li>
+					<li>How to chose the right piano - this part will provide useful information of how to pick the right first piano</li>
+					<li>When to start - Give user an idea to decide the right time to begin a leeson.</li>
+				</ol>
+		</main>
+
 
 	</body>
 </html>
