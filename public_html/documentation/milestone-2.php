@@ -26,6 +26,13 @@
 				</ol><br>
 				<p><b>About Music:</b>This section will have basic of music theory and piano fundamental knowledge. Such as how to read music between lines and spaces. The stories of treble and bass clef. The music notation in rhythm. What is temple? (From Adgio to Presto). The five finger position on piano. Some finger exercise suggestions. </p><br>
 				<p><b>Resources</b>Some useful and fun link relate to piano and sheet music.</p><br>
+			<h2>Interaction Flow</h2>
+				<p>David is viewing the site on his desktop computer at home, with a 27" dell screen, using Firefox. He has 11 other tabs open. From Google, he links to my personal website which opens a new window, in the next three minutes, this is an outline of David's interactions with this site:</p>
+				<ol>
+					<li>Lands on Home page. Clicks on "About Me" to figure out who writes this website </li>
+					<li>Views the content in "About piano" and decide to read through "Why Piano". Because he still thinks about what instrument to choose for his children's first music lesson, piano, flute or violin. After the information he gets from the website, he clicks on resources out of curiosity and finds some useful free resources for his children's piano lesson.</li>
+					<li></li>
+				</ol>
 		</main>
 
 
