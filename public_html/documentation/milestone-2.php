@@ -31,7 +31,7 @@
 				<ol>
 					<li>Lands on Home page. Clicks on "About Me" to figure out who writes this website </li>
 					<li>Views the content in "About piano" and decide to read through "Why Piano". Because he still thinks about what instrument to choose for his children's first music lesson, piano, flute or violin. After the information he gets from the website, he clicks on resources out of curiosity and finds some useful free resources for his children's piano lesson.</li>
-					<li></li>
+					<li>After about two minutes looking at the website, he decides to save this page on his browser for future reference. He also notices that the lay-out of this page is simple and accesible. He decides to save this page on his mobile phone which is a iphone browser, so he can gain more knowledge during his free time.</li>
 				</ol>
 		</main>
 
