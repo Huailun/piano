@@ -33,6 +33,8 @@
 					<li>Views the content in "About piano" and decide to read through "Why Piano". Because he still thinks about what instrument to choose for his children's first music lesson, piano, flute or violin. After the information he gets from the website, he clicks on resources out of curiosity and finds some useful free resources for his children's piano lesson.</li>
 					<li>After about two minutes looking at the website, he decides to save this page on his browser for future reference. He also notices that the lay-out of this page is simple and accesible. He decides to save this page on his mobile phone which is a iphone browser, so he can gain more knowledge during his free time.</li>
 				</ol>
+			<img src="media/WireFrame-PWP.svg" alt="WireFrame">
+			<img src="media/Mobile.svg" alt="Mobile-Version">
 		</main>
 
 
