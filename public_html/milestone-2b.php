@@ -43,7 +43,9 @@
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar">About me</span>
+						<p>Hello, this is Ellen. I have started to play piano at age of five and never stopped ever since. From the freshman year at university, I began to give piano lessons. After getting my bachelor degree in piano performance in Taipei, Taiwan, I worked as a piano teacher and piano accompanist. Later, I received my master degree in both piano performance and piano pedagogy from University of Houston in Houston, Texas. I taught class piano, music fundamentals and music appreciation in a community college at Cypress, Texas. I found that no matter in eastern or western world, there are plenty of people looking for learning piano. As a recent career change to be a web-devloper, I hope to incoporate my previous experiences with the new skill I have learned to help people who are interested in learning piano. </p>
 						<span class="icon-bar">About piano</span>
+						<p>Like the golden rule of real estate is "Location, Location, Location", the best way to master in piano is "Practice, Practice, Practice". Because of this, one who is interested in starting a piano lesson, pick the right piano is the important first step. The full size of a standard piano is consist of eighty-eight keys. However, an acoustic piano can cost most people an arm and a leg. My suggestion is to get a weighted electronic keyboard with at least 61 keys .</p>
 						<span class="icon-bar">Some music basics</span>
 						<span class="icon-bar">Link to useful resources</span>
 					</button>
