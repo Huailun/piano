@@ -6,7 +6,7 @@
 /*corrects IE min-height bug*/
 html { 	display: flex;}
 body { 	width: 100%;
-			background-color: aquamarine;
+			background-color: lightcyan;
 }
 
 .sfooter {
@@ -20,7 +20,7 @@ body { 	width: 100%;
 }
 
 body > .container {
-	background-color: aqua;
+	background-color:lightblue;
 }
 .jumbotron {
 
