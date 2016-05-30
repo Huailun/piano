@@ -75,7 +75,13 @@
 										<li>Key signatures</li>
 									</ul>
 								</li><!--/.dropdown for music theory -->
-								<li><a href="#link">Link</a></li>
+								<li class="dropdown">
+									<a href="#link" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-baspopup="true" aria-expanded="false">Link<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+									<li>IMSLP</li>
+									<li>Metronome</li>
+									</ul>
+								</li><!--/.dropdown for link -->
 								<li><a href="#contact-me">Contact Me</a></li>
 							</ul>
 						</div><!--/.nav-collapse -->
@@ -107,12 +113,6 @@
 							</ul>
 						</div>
 
-
-						<span class="icon-bar">Link to useful resources</span>
-							<ul>
-								<li>IMSLP</li>
-								<li>Online Metronome</li>
-							</ul>
 					</button>
 					</div>
 					</div>
