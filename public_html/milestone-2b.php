@@ -90,6 +90,7 @@
 						</div><!--/.nav-collapse -->
 					</div>
 			</nav>
+
 			<div class="container">
 				<div class="welcome">
 					<p class="lead">To many people, music is a powerful part in their personal life. Learning to play an instrument can help people to gain more concentration and release stress. However, from years of teaching and my personal learning experiences, playing piano is not easy. But, if people can start piano lesson in a right path, it can save tons of time and energy and enjoy the happiness of playing piano. Different with other instruments, piano is self-sufficient. It can create melody and chords at the same time. Also, not like other instruments, people don't need to tune piano every time before they play on it. Piano is very helpful to build good music ears.</p>
@@ -121,6 +122,42 @@
 					</div>
 				</nav>
 			</div>
+		<form class="form-horizontal" role="form" method="post" action="index.php">
+			<div class="form-group">
+				<label for="name" class="col-sm-2 control-label">Name</label>
+				<div class="col-sm-10">
+					<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="email" class="col-sm-2 control-label">Email</label>
+				<div class="col-sm-10">
+					<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="message" class="col-sm-2 control-label">Message</label>
+				<div class="col-sm-10">
+					<textarea class="form-control" rows="4" name="message"></textarea>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="human" class="col-sm-2 control-label">right hand + left hand = ?</label>
+				<div class="col-sm-10">
+					<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-10 col-sm-offset-2">
+					<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-10 col-sm-offset-2">
+					<! Will be used to display an alert to the user>
+				</div>
+			</div>
+		</form>
 		</header>
 		<!-- welcome section -->
 		<section = id="welcome">
@@ -129,8 +166,6 @@
 				<div class="col-md-3">
 					image
 				</div>
-
-
 			</div>
 		</div>
 		</section>
