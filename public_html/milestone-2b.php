@@ -36,6 +36,11 @@
 		<div class="sfooter-content">
 			<!-- begin bootstrap navbar -->
 			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="jumbotron">
+				<h1>Bach gave us God's word.<br> Mozart gave us God's laughter.<br> Beethoven gave us God's fire.<br> God gave us Music that we might pray without words.</h1>
+				<p><em>Welcome to Ellen's Online Piano Studio</em></p>
+				<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+			</div>
 			<nav class="navbar navbar-inverse navbar-fixed-top">
 				<div class="container">
 					<div class="navbar-header">
@@ -62,8 +67,7 @@
 			</nav>
 			<div class="container">
 				<div class="welcome">
-					<h1>Welcome to Ellen's Online Piano Studio</h1>
-					<p class="lead">Bach gave us God's word.Mozart gave us God's laughter.<br> Beethoven gave us God's fire.<br> God gave us Music that we might pray without words.<br> To many people, music is a powerful part in their personal life. Learning to play an instrument can help people to gain more concentration and release stress. However, from years of teaching and my personal learning experiences, playing piano is not easy. But, if people can start piano lesson in a right path, it can save tons of time and energy and enjoy the happiness of playing piano. Different with other instruments, piano is self-sufficient. It can create melody and chords at the same time. Also, not like other instruments, people don't need to tune piano every time before they play on it. Piano is very helpful to build good music ears.</p>
+					<p class="lead">To many people, music is a powerful part in their personal life. Learning to play an instrument can help people to gain more concentration and release stress. However, from years of teaching and my personal learning experiences, playing piano is not easy. But, if people can start piano lesson in a right path, it can save tons of time and energy and enjoy the happiness of playing piano. Different with other instruments, piano is self-sufficient. It can create melody and chords at the same time. Also, not like other instruments, people don't need to tune piano every time before they play on it. Piano is very helpful to build good music ears.</p>
 				</div>
 			</div><!-- container -->
 			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -77,11 +81,12 @@
 								<li class="icon-bar">Reading Music</li>
 								<ul>
 										<li>Tempo</li>
-								<p>Tempo to music is as important as heart beats to human. Playing music in a steady tempo makes music sound smoothly. Tempo marks of music are in italian. From Larghissimo to Pretissimo means the slowest to the fastest tempo. In another form of expression, tempo can also be marked as BPM - beats per minutes. </p>
-								<li>Rhythm</li>
-								<p>What forms rhythm is the division of the note's value. There are two ways of dividing note's value, diving by two is used more often than diving by three. The different way of division gives music different feeling in its movement.</p>
-								<li>Music Notation: Treble Clef, Bass Clef and Staff</li>
-								<li>Sharps and Flats</li>
+										<p>Tempo to music is as important as heart beats to human. Playing music in a steady tempo makes music sound smoothly. Tempo marks of music are in italian. From Larghissimo to Pretissimo means the slowest to the fastest tempo. In another form of expression, tempo can also be marked as BPM - beats per minutes. </p>
+										<li>Rhythm</li>
+										<p>What forms rhythm is the division of the note's value. There are two ways of dividing note's value, diving by two is used more often than diving by three. The different way of division gives music different feeling in its movement.</p>
+										<li>Music Notation: Treble Clef, Bass Clef and Staff</li>
+										<li>Sharps and Flats</li>
+										<p>There are fifteen major and fifteen minor keys in a well-tempered tuning system. Different keys add different colors to music. Except C major and a minor, all keys need to be marked with key signatures. Recognize what key the music is written in is essential to make music sound right. There are seven sharps and seven flats in key signature. They come with a fixed order and add up from one to seven. In sharps, the order is FCGDAEB(Father Charles Goes Down And Ends Battle), flats goes with a completely reverse order, BEADGCF(Battle Ends And Down Goes Charles Father). </p>
 							</ul>
 							</ul>
 						</div>
