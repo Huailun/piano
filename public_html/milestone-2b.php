@@ -38,6 +38,9 @@
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="jumbotron">
 				<div class="container">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-right ">
+						<img vspace="20" class="jumbotronwidth" alt="key " src="images/keys.jpg">
+					</div>
 					<h1>Bach gave us God's word.<br> Mozart gave us God's laughter.<br> Beethoven gave us God's fire.<br> God gave us Music that we might pray without words.<br></h1>
 					<h2><em>Welcome to Ellen's Online Piano Studio</em></h2>
 					<p><a class="btn btn-primary btn-md" href="#" role="button">Learn more</a></p>
