@@ -37,12 +37,14 @@
 			<!-- begin bootstrap navbar -->
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="jumbotron">
-				<h1>Bach gave us God's word.<br> Mozart gave us God's laughter.<br> Beethoven gave us God's fire.<br> God gave us Music that we might pray without words.</h1>
-				<p><em>Welcome to Ellen's Online Piano Studio</em></p>
-				<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-			</div>
-			<nav class="navbar navbar-inverse navbar-fixed-top">
 				<div class="container">
+					<h1>Bach gave us God's word.<br> Mozart gave us God's laughter.<br> Beethoven gave us God's fire.<br> God gave us Music that we might pray without words.<br></h1>
+					<h2><em>Welcome to Ellen's Online Piano Studio</em></h2>
+					<p><a class="btn btn-primary btn-md" href="#" role="button">Learn more</a></p>
+					</div><!--/.container -->
+			</div><!--/.jumbotron -->
+			<nav class="navbar navbar-default navbar-fixed-top navbar-justified">
+				<div class="container-fluid">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 							<span class="sr-only">Toggle navigation
@@ -51,18 +53,32 @@
 							<span class="icon-bar"></span>>
 							<span class="icon-bar"></span>>
 						</button>
-						<a class="navbar-brand" href="#">Ellen's Online Piano Studio</a>
+						<a class="navbar-brand" href="#">Home</a>
 					</div><!--/.navbar-header -->
-						<div id="navbar" class="collapse navbar-collapse">
+					<!-- Collect the nav links and other content for toggling -->
+						<div id="navbar-collapse" class="collapse navbar-collapse">
 							<ul class="nav navbar-nav">
-								<li class="active"><a href="#">Home</a></li>
 								<li><a href="#about-me">About Me</a></li>
-								<li><a href="#about-piano">About Piano</a></li>
-								<li><a href="#reading-music">Reading Music</a></li>>
+								<li class="dropdown">
+									<a href="#about-piano" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-baspopup="true" aria-expanded="false">About Piano<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li>Find the right piano</li>
+										<li>Finger Position</li>
+									</ul>
+								</li><!--/.dropdown for about piano -->
+								<li class="dropdown">
+									<a href="#reading-music" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-baspopup="true" aria-expanded="false">Reading music<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li>Tempo</li>
+										<li>Rhythm</li>
+										<li>Music notation</li>
+										<li>Key signatures</li>
+									</ul>
+								</li><!--/.dropdown for music theory -->
 								<li><a href="#link">Link</a></li>
 								<li><a href="#contact-me">Contact Me</a></li>
 							</ul>
-						</div><!--/.nar-collapse -->
+						</div><!--/.nav-collapse -->
 					</div>
 			</nav>
 			<div class="container">
@@ -85,7 +101,7 @@
 										<li>Rhythm</li>
 										<p>What forms rhythm is the division of the note's value. There are two ways of dividing note's value, diving by two is used more often than diving by three. The different way of division gives music different feeling in its movement.</p>
 										<li>Music Notation: Treble Clef, Bass Clef and Staff</li>
-										<li>Sharps and Flats</li>
+										<li>Key signatures</li>
 										<p>There are fifteen major and fifteen minor keys in a well-tempered tuning system. Different keys add different colors to music. Except C major and a minor, all keys need to be marked with key signatures. Recognize what key the music is written in is essential to make music sound right. There are seven sharps and seven flats in key signature. They come with a fixed order and add up from one to seven. In sharps, the order is FCGDAEB(Father Charles Goes Down And Ends Battle), flats goes with a completely reverse order, BEADGCF(Battle Ends And Down Goes Charles Father). </p>
 							</ul>
 							</ul>
