@@ -21,7 +21,6 @@ body { 	width: 100%;
 
 body > .container {
 	background-color:lightblue;
-	width: 100%;
 }
 
 .jumbotron {
@@ -48,3 +47,10 @@ body > .container {
 	float: left;
 	height: 400px;
 }
+
+.fingering {
+	float: right;
+	height: 250px;
+	width: 400px;
+}
+
