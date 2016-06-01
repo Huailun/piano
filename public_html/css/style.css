@@ -21,7 +21,9 @@ body { 	width: 100%;
 
 body > .container {
 	background-color:lightblue;
+	width: 100%;
 }
+
 .jumbotron {
 
 	background: #43a2a7;
@@ -36,9 +38,13 @@ body > .container {
 }
 
 .jumbotron h1 {
-	font-size: 2.2em;
+	font-size: 3.0em;
 	font-family: "Cursive";
 	color: #000fff;
 	text-shadow: 2px 2px 2px #000;
-}
 
+}
+.piano {
+	float: left;
+	height: 400px;
+}
