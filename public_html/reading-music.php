@@ -51,7 +51,7 @@
 						<div class="collapse navbar-collapse" id="collapse">
 							<!-- Collect the nav links and other content for toggling -->
 							<ul class="nav nav-pills navbar-right">
-								<li class="active"><a href="#featured">Home</a></li>
+								<li class="active"><a href="index.php">Home</a></li>
 								<li><a href="#about-me">About Me</a></li>
 								<li class="dropdown">
 									<a href="#about-piano" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-baspopup="true" aria-expanded="false">About Piano<span class="caret"></span></a>
@@ -72,8 +72,9 @@
 								<li class="dropdown">
 									<a href="#link" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-baspopup="true" aria-expanded="false">Link<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li>IMSLP</li>
-										<li>Metronome</li>
+										<li><a href="http://imslp.org/">IMSLP</a></li>
+										<li><a href="http://a.bestmetronome.com/>"Metronome</a></li>
+										<li><a href="https://www.musictheory.net/">Music theory</a></li>
 									</ul>
 								</li><!--/.dropdown for link -->
 								<li><a href="#contact-me">Contact Me</a></li>

@@ -53,7 +53,7 @@
 						<div class="collapse navbar-collapse" id="collapse">
 							<!-- Collect the nav links and other content for toggling -->
 							<ul class="nav nav-pills navbar-right">
-								<li class="active"><a id="featured">Home</a></li>
+								<li class="active"><a id="index.php">Home</a></li>
 								<li><a href="about.php">About Me</a></li>
 								<li class="dropdown">
 									<a href="#about-piano" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-baspopup="true" aria-expanded="false">About Piano<span class="caret"></span></a>
@@ -65,17 +65,18 @@
 								<li class="dropdown">
 									<a href="reading-music.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-baspopup="true" aria-expanded="false">Reading music<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li>Tempo</li>
-										<li>Rhythm</li>
-										<li>Music notation</li>
-										<li>Key signatures</li>
+										<li><a href="#tempo">Tempo</a></li>
+										<li><a href="#rhythm"></a></li>
+										<li><a href="#notation">Music notation</a></li>
+										<li><a href="#key">Key signatures</a></li>
 									</ul>
 								</li><!--/.dropdown for music theory -->
 								<li class="dropdown">
 									<a href="#link" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-baspopup="true" aria-expanded="false">Link<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li>IMSLP</li>
-										<li>Metronome</li>
+										<li><a href="http://imslp.org/">IMSLP</a></li>
+										<li><a href="http://a.bestmetronome.com/">me</a></li>
+										<li><a href="https://www.musictheory.net/">Music theory</a></li>
 									</ul>
 								</li><!--/.dropdown for link -->
 								<li><a href="#contact-me">Contact Me</a></li>
