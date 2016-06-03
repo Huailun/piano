@@ -64,9 +64,9 @@
 									<a href="#reading-music" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-baspopup="true" aria-expanded="false">Reading music<span class="caret"></span></a>
 									<ul class="dropdown-menu">
 										<li><a href="#tempo">Tempo</a></li>
-										<li>Rhythm</li>
-										<li>Music notation</li>
-										<li>Key signatures</li>
+										<li><a href="#rhythm">Rhythm</a></li>
+										<li><a href="#notation">Music notation</a></li>
+										<li><a href="#key">Key signatures</a></li>
 									</ul>
 								</li><!--/.dropdown for music theory -->
 								<li class="dropdown">
@@ -81,20 +81,27 @@
 						</div><!--/.nav-collapse -->
 					</div><!--nav container-->
 				</nav>
-				<h3>Reading Music</h3>
-					<h4 id="tempo">Tempo</h4>
+		<main>
+			<h3>Reading Music</h3>
+				<h4 id="tempo">Tempo</h4>
 					<p>Tempo to music is as important as heart beats to human. Playing music in a steady tempo makes music sound smoothly. Tempo marks of music are in italian. From Larghissimo to Pretissimo means the slowest to the fastest tempo. In another form of expression, tempo can also be marked as BPM - beats per minutes. </p>
-					<h4>Rhythm</h4>
+					<h4 id="rhythm">Rhythm</h4>
 					<p>What forms rhythm is the division of the note's value. There are two ways of dividing note's value, diving by two is used more often than diving by three. The different way of division gives music different feeling in its movement.</p>
-					<h4>Music Notation: Treble Clef, Bass Clef and Staff</h4>
+					<h4 id="notation">Music Notation: Treble Clef, Bass Clef and Staff</h4>
 					<p>All music notes are built in a five horizontal lines which called a staff. Between five horizontal lines, there are four spaces. The lines and spaces are counted from bottom to top. From first line to fifth line and first space to fourth space. Depending on what type of clef is put at the beginning of the staff(the very left side of staff), the notes has different names between lines and spaces in an alphabetical order from A to G. The most common clefs are treble clef and bass clef. Treble clef starts on the second line of a staff which is a G note and a bass clef starts on the fourth line which indicates a F note.</p>
-					<h4>Key signatures</h4>
-					<p>There are fifteen major and fifteen minor keys in a well-tempered tuning system. Different keys add different colors to music. Except C major and a minor, all keys need to be marked with key signatures. Recognize what key the music is written in is essential to make music sound right. There are seven sharps and seven flats in key signature. They come with a fixed order and add up from one to seven. In sharps, the order is FCGDAEB(Father Charles Goes Down And Ends Battle), flats goes with a completely reverse order, BEADGCF(Battle Ends And Down Goes Charles Father). </p>
-
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+					<p class="pull-right" id="key"><strong>Key signatures:</strong><em>There are fifteen major and fifteen minor keys in a well-tempered tuning system. Different keys add different colors to music. Except C major and a minor, all keys need to be marked with key signatures. Recognize what key the music is written in is essential to make music sound right. There are seven sharps and seven flats in key signature. They come with a fixed order and add up from one to seven. In sharps, the order is FCGDAEB(Father Charles Goes Down And Ends Battle), flats goes with a completely reverse order, BEADGCF(Battle Ends And Down Goes Charles Father).</em></p>
+					<img src="images/circle-of-5th.jpg" alt="circle-of-5th" class="circle img-responsive">
+								</div>
+							</div>
+						</div>
 		</div>
+		</main>
 		</div><!--/.sfooter-content -->
+
 		<footer>
 			<p>copyright</p>
 		</footer>
-		</div><!-- container-->
 	</body>

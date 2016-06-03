@@ -97,3 +97,14 @@ body > .container {
 	padding: 20px;
 	float: left;
 }
+
+#key {
+	font-size: 1.5em;
+	padding: 20px 0 10px 0;
+	float: right;
+}
+
+.circle {
+	width: 300px;
+}
+
