@@ -84,23 +84,41 @@
 				</nav>
 		<main>
 			<h3>Reading Music</h3>
-				<h4 id="tempo">Tempo</h4>
-					<p>Tempo is as important to music as a heart beat is to a person. Playing music in a steady tempo makes music flow smoothly. Tempo marks, in music notation, are in Italian. From Larghissimo to Pretissimo, there is a range of terms describing the slowest tempo to the fastest. Another way to express tempo is as beats per minute, or BPM.</p>
-					<img src="images/tempo.jpg" alt="tempo">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<h4 id="tempo">Tempo</h4>
+								<p>Tempo is as important to music as a heart beat is to a person. Playing music in a steady tempo makes music flow smoothly. Tempo marks, in music notation, are in Italian. From Larghissimo to Pretissimo, there is a range of terms describing the slowest tempo to the fastest. Another way to express tempo is as beats per minute, or BPM.</p>
+								<img src="images/tempo.jpg" alt="tempo" class="tempo img-responsive">
+						</div>
+					</div>
+				</div><!--container of tempo -->
 				<h4 id="rhythm">Rhythm</h4>
-					<p>Rhythm is formed by the division of the note's value. There are two ways to divide a note. Dividing by two is used most often, followed by dividing by three. The different types of division are used to give music a distinct feeling in its movement.</p>
-				<h4 id="notation">Music Notation: Treble Clef, Bass Clef and Staff</h4>
-					<img src="images/rhythm.png" alt="rhythm">
-					<p>Music notes are arranged on a structure of five horizontal lines, which is called a staff. Between these lines, there are four spaces. The lines and spaces are counted from bottom to top, from the first line to the fifth line and the first space to the fourth space.<br>In each clef, the notes assigned to the lines and spaces are different. The most common clefs are the treble clef and the bass clef. The treble clef begins on the second line of the staff, which is a G note, and the bass clef starts on the fourth line, which indicates an F note.<br>Piano music is typically written on a grand staff, which consists of a treble clef (top) joined to a bass clef (bottom) in order to provide notation for both hands.</p>
-					<img src="images/images.png" alt="staff" class="clefs img-responsive">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-6">
-					<p class="pull-left" id="key"><strong>Key signatures</strong><em>There are fifteen major and fifteen minor keys in a well-tempered tuning system. Different keys can add different colors to a piece of music. Except for C major and A minor, all keys need to be marked with key signatures. Recognizing which key a piece of music is written in is essential to playing it correctly. There are seven sharps (#) and seven flats (b) in a key signature. They come with a fixed order and add up from one to seven. The order of the sharps is FCGDAEB(Father Charles Goes Down And Ends Battle.) Flats go in the reverse order, BEADGCF(Battle Ends And Down Goes Charles Father).</em></p>
-								</div>
-							<img src="images/circle-of5th.jpg" alt="circle-of-5th" class="circle img-responsive pull-right">
+								<p>Rhythm is formed by the division of the note's value. There are two ways to divide a note. Dividing by two is used most often, followed by dividing by three. The different types of division are used to give music a distinct feeling in its movement.</p>
+							</div>
+								<img src="images/rhythm.png" alt="rhythm" class="rhythm img-responsive">
 						</div>
+					</div><!--container of rhythm-->
+				<h4 id="notation">Music Notation: Treble Clef, Bass Clef and Staff</h4>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<p>Music notes are arranged on a structure of five horizontal lines, which is called a staff. Between these lines, there are four spaces. The lines and spaces are counted from bottom to top, from the first line to the fifth line and the first space to the fourth space.<br>In each clef, the notes assigned to the lines and spaces are different. The most common clefs are the treble clef and the bass clef. The treble clef begins on the second line of the staff, which is a G note, and the bass clef starts on the fourth line, which indicates an F note.<br>Piano music is typically written on a grand staff, which consists of a treble clef (top) joined to a bass clef (bottom) in order to provide notation for both hands.</p>
+							</div>
+								<img src="images/images.png" alt="staff" class="clefs img-responsive">
 						</div>
+					</div><!--container of notation-->
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<p class="pull-left" id="key"><strong>Key signatures</strong><em>There are fifteen major and fifteen minor keys in a well-tempered tuning system. Different keys can add different colors to a piece of music. Except for C major and A minor, all keys need to be marked with key signatures. Recognizing which key a piece of music is written in is essential to playing it correctly. There are seven sharps (#) and seven flats (b) in a key signature. They come with a fixed order and add up from one to seven. The order of the sharps is FCGDAEB(Father Charles Goes Down And Ends Battle.) Flats go in the reverse order, BEADGCF(Battle Ends And Down Goes Charles Father).</em></p>
+							</div>
+								<img src="images/circle-of5th.jpg" alt="circle-of-5th" class="circle img-responsive pull-right">
+						</div>
+					</div>
 		</div>
 		</main>
 		</div><!--/.sfooter-content -->
