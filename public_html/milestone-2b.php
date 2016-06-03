@@ -39,7 +39,7 @@
 			<!-- begin bootstrap navbar -->
 			<!-- Brand and toggle get grouped for better mobile display -->
 	<div class="container-fluid">
-			<nav class="navbar navbar-default navbar-fluid-top" role="navigation">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 				<div class="container">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="navbar">
@@ -83,31 +83,25 @@
 					</div><!--/.nav-collapse -->
 				</div><!--nav container-->
 			</nav>
-		<div class="jumbotron">
-			<div class="container">
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-right ">
-					<img vspace="20" class="jumbotronwidth" alt="key " src="images/keys.jpg">
-				</div>
-				<h1>Bach gave us God's word.<br> Mozart gave us God's laughter.<br> Beethoven gave us God's fire.<br> God gave us Music that we might pray without words.<br></h1>
+		<section class="welcome">
+			<div class="container-fluid">
+				<p class="h1">Bach gave us God's word.</p>
+				<p class="h1">Mozart gave us God's laughter.</p>
+				<p class="h1">Beethoven gave us God's fire.</p>
+				<p class="h1">God gave us Music that we might pray without words.</p>
 				<h2><em>Welcome to Ellen's Online Piano Studio</em></h2>
 				<p><a class="btn btn-primary btn-md" href="#learn" role="button">Learn more</a></p>
-			</div><!--/.container -->
-		</div><!--/.jumbotron -->
+			</div>
+		</section>
 
+		<main>
 			<div class="container-fluid">
-					<p class="lead" id="learn">To many people, music is a powerful part in their personal life. Learning to play an instrument can help people to gain more concentration and release stress. However, from years of teaching and my personal learning experiences, playing piano is not easy. But, if people can start their piano lesson in a right path, it can save tons of time and energy and enjoy the happiness of playing piano. Different with other instruments, piano is self-sufficient. It can create melody and chords at the same time. Also, not like other instruments, people don't need to tune their piano every time before they play on it. Piano is also very helpful to build good music ears and understand how music system works.
-					<img class="piano" src="images/mypiano.jpg" alt="my piano"></p>
-			</div><!--container-->
-				<h3>About me</h3>
-					<div class="row">
-						<div class="col-sm-12">
-								<p>Hello, this is Ellen. I have started to play piano at age of five and never stopped ever since. From the freshman year at university, I began to give piano lessons. After getting my bachelor degree in piano performance in Taipei, Taiwan, I worked as a piano teacher and collaborative pianist. Later, I received my master degree in both piano performance and piano pedagogy from University of Houston in Houston, Texas. I taught class piano, music fundamentals and music appreciation in a community college at Cypress, Texas. I found that no matter in eastern or western world, there are plenty of people looking for learning piano. As a recent career change to be a web-developer, I hope to incorporate my previous experiences with the new skill I have learned to help people who are interested in learning piano. </p>
-			</div><!--/. container of about me -->
-								<h3>About piano</h3>
-								<p id="find" class="find_piano"><strong>Find the right piano:</strong><br>Like the golden rule of real estate is "Location, Location, Location", the best way to master in piano is "Practice, Practice, Practice". Because of this, one who is interested in starting a piano lesson, pick the right piano is the important first step. The full size of a standard piano is consist of eighty-eight keys. However, an acoustic piano can cost most people an arm and a leg. My suggestion is to get a weighted electronic keyboard with at least 61 keys.</p>
-								<img class="roland" src="images/roland.jpg" alt="keyboard">
-								<p id="finger" class="finger_position"><strong>Finger position:</strong><br>While sitting in front of your new piano, in my opinion, staring from the pattern of five-finger position is the most effective way to build a good fundation in piano learning. Because all piano music need ten fingers to work together to create fine music. It is very important to have equal strength of all fingers when playing piano. Working on all fingers as soon as possible will eliminate many potential obstacles in playing.</p>
-								<img class="fingering" src="images/fingering.jpg" alt="finger">
+				<p class="lead pull-left" id="learn">To many people, music is a powerful part in their personal life. Learning to play an instrument can help people to gain more concentration and release stress. However, from years of teaching and my personal learning experiences, playing piano is not easy. But, if people can start their piano lesson in a right path, it can save tons of time and energy and enjoy the happiness of playing piano. Different with other instruments, piano is self-sufficient. It can create melody and chords at the same time. Also, not like other instruments, people don't need to tune their piano every time before they play on it. Piano is also very helpful to build good music ears and understand how music system works.
+				</p>
+				<img class="piano pull-right img-responsive" src="images/mypiano.jpg" alt="my piano">
+			</div>
+		</main>
+				
 								<h3>Reading Music</h3>
 								<ul>
 										<li>Tempo</li>

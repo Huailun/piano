@@ -33,9 +33,8 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<title>PWP</title>
 	</head>
-	<body class="sfooter ">
+	<body class="sfooter">
 		<div class="sfooter-content">
-
 			<!-- begin bootstrap navbar -->
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="container-fluid">
@@ -53,8 +52,8 @@
 						<div class="collapse navbar-collapse" id="collapse">
 							<!-- Collect the nav links and other content for toggling -->
 							<ul class="nav nav-pills navbar-right">
-								<li class="active"><a id="featured">Home</a></li>
-								<li><a href="about.php">About Me</a></li>
+								<li class="active"><a href="#featured">Home</a></li>
+								<li><a href="#about-me">About Me</a></li>
 								<li class="dropdown">
 									<a href="#about-piano" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-baspopup="true" aria-expanded="false">About Piano<span class="caret"></span></a>
 									<ul class="dropdown-menu">
@@ -63,7 +62,7 @@
 									</ul>
 								</li><!--/.dropdown for about piano -->
 								<li class="dropdown">
-									<a href="reading-music.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-baspopup="true" aria-expanded="false">Reading music<span class="caret"></span></a>
+									<a href="#reading-music" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-baspopup="true" aria-expanded="false">Reading music<span class="caret"></span></a>
 									<ul class="dropdown-menu">
 										<li>Tempo</li>
 										<li>Rhythm</li>
@@ -83,73 +82,21 @@
 						</div><!--/.nav-collapse -->
 					</div><!--nav container-->
 				</nav>
-	<section class="welcome">
-		<div class="container-fluid">
-			<p class="h1">Bach gave us God's word.</p>
-			<p class="h1">Mozart gave us God's laughter.</p>
-			<p class="h1">Beethoven gave us God's fire.</p>
-			<p class="h1">God gave us Music that we might pray without words.</p>
-			<h2><em>Welcome to Ellen's Online Piano Studio</em></h2>
-			<p><a class="btn btn-primary btn-md" href="#learn" role="button">Learn more</a></p>
-		</div>
-	</section>
-
-	<main>
-		<div class="container-fluid learn-more">
-			<div class="row">
-				<div class="col-md-6">
-					<p class="pull-left" id="learn">To many people, music is a powerful part in their personal life. Learning to play an instrument can help people to gain more concentration and release stress. However, from years of teaching and my personal learning experiences, playing piano is not easy. But, if people can start their piano lesson in a right path, it can save tons of time and energy and enjoy the happiness of playing piano. Different with other instruments, piano is self-sufficient. It can create melody and chords at the same time. Also, not like other instruments, people don't need to tune their piano every time before they play on it. Piano is also very helpful to build good music ears and understand how music system works.</p>
-				</div>
-
-				<img class="piano pull-right img-responsive" src="images/mypiano.jpg" alt="my piano">
-			</div>
-
-		</div>
-	</main>
-	<section>
-		<div class="container">
-			<h3 id="contact">Contact me</h3>
-		<form class="form-horizontal" role="form" method="post" action="index.php" id="contact-me">
-			<div class="form-group">
-				<label for="name" class="col-sm-2 control-label">Name</label>
-					<div class="col-sm-10">
-						<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<p id="about-me"><strong>About me: </strong><em>Hello, this is Ellen. I have started to play piano at age of five and never stopped ever since. From the freshman year at university, I began to give piano lessons. After getting my bachelor degree in piano performance in Taipei, Taiwan, I worked as a piano teacher and collaborative pianist. Later, I received my master degree in both piano performance and piano pedagogy from University of Houston in Houston, Texas. I taught class piano, music fundamentals and music appreciation in a community college at Cypress, Texas. I found that no matter in eastern or western world, there are plenty of people looking for learning piano. As a recent career change to be a web-developer, I hope to incorporate my previous experiences with the new skill I have learned to help people who are interested in learning piano.</em></p>
+						</div>
 					</div>
-			</div>
-				<div class="form-group">
-					<label for="email" class="col-sm-2 control-label">Email</label>
-					<div class="col-sm-10">
-						<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="message" class="col-sm-2 control-label">Message</label>
-					<div class="col-sm-10">
-						<textarea class="form-control" rows="4" name="message"></textarea>
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="human" class="col-sm-2 control-label">right hand + left hand = ?</label>
-					<div class="col-sm-10">
-						<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
-					</div>
-				</div>
-				<div class="form-group">
-					<div class="col-sm-10 col-sm-offset-2">
-						<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-					</div>
-				</div>
-				<div class="form-group">
-					<div class="col-sm-10 col-sm-offset-2">
-						<! Will be used to display an alert to the user>
-					</div>
-				</div>
-			</form>
-		</div>
-				</section>
-		</div><!--/.sfooter-content -->
-		<footer>
-			<p>copyright</p>
-		</footer>
-		</div><!-- container-->
+				</div><!--/. container of about me -->
+					<h2 class="about-piano"><em>About piano</em></h2>
+					<p id="find" class="find_piano"><strong>Find the right piano:</strong><br>Like the golden rule of real estate is "Location, Location, Location", the best way to master in piano is "Practice, Practice, Practice". Because of this, one who is interested in starting a piano lesson, pick the right piano is the important first step. The full size of a standard piano is consist of eighty-eight keys. However, an acoustic piano can cost most people an arm and a leg. My suggestion is to get a weighted electronic keyboard with at least 61 keys, preferrably with a pedal. After getting a piano, it is time to start play with it!</p>
+					<img class="roland img-responsive" src="images/roland.jpg" alt="keyboard">
+					<p id="finger" class="finger_position"><strong>Finger position:</strong><br>While sitting in front of your new piano, in my opinion, staring from the pattern of five-finger position is the most effective way to build a good fundation in piano learning. Because all piano music need ten fingers to work together to create fine music. It is very important to have equal strength of all fingers when playing piano. Working on all fingers as soon as possible will eliminate many potential obstacles in playing piano. Please see the picture below to see how fingers numbers in piano.</p>
+					<img class="fingers img-responsive" src="images/fingering.jpg" alt="fingers">
+				</div><!--/.sfooter-content -->
+				<footer>
+					<p>copyright</p>
+				</footer>
+			</div><!-- container-->
 	</body>

@@ -33,14 +33,12 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<title>PWP</title>
 	</head>
-	<body class="sfooter ">
+	<body class="sfooter">
 		<div class="sfooter-content">
-
 			<!-- begin bootstrap navbar -->
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="container-fluid">
 				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-					<div class="container">
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only">Toggle navigation</span>
@@ -53,8 +51,8 @@
 						<div class="collapse navbar-collapse" id="collapse">
 							<!-- Collect the nav links and other content for toggling -->
 							<ul class="nav nav-pills navbar-right">
-								<li class="active"><a id="featured">Home</a></li>
-								<li><a href="about.php">About Me</a></li>
+								<li class="active"><a href="#featured">Home</a></li>
+								<li><a href="#about-me">About Me</a></li>
 								<li class="dropdown">
 									<a href="#about-piano" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-baspopup="true" aria-expanded="false">About Piano<span class="caret"></span></a>
 									<ul class="dropdown-menu">
@@ -63,7 +61,7 @@
 									</ul>
 								</li><!--/.dropdown for about piano -->
 								<li class="dropdown">
-									<a href="reading-music.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-baspopup="true" aria-expanded="false">Reading music<span class="caret"></span></a>
+									<a href="#reading-music" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-baspopup="true" aria-expanded="false">Reading music<span class="caret"></span></a>
 									<ul class="dropdown-menu">
 										<li>Tempo</li>
 										<li>Rhythm</li>
@@ -83,70 +81,17 @@
 						</div><!--/.nav-collapse -->
 					</div><!--nav container-->
 				</nav>
-	<section class="welcome">
-		<div class="container-fluid">
-			<p class="h1">Bach gave us God's word.</p>
-			<p class="h1">Mozart gave us God's laughter.</p>
-			<p class="h1">Beethoven gave us God's fire.</p>
-			<p class="h1">God gave us Music that we might pray without words.</p>
-			<h2><em>Welcome to Ellen's Online Piano Studio</em></h2>
-			<p><a class="btn btn-primary btn-md" href="#learn" role="button">Learn more</a></p>
-		</div>
-	</section>
-
-	<main>
-		<div class="container-fluid learn-more">
-			<div class="row">
-				<div class="col-md-6">
-					<p class="pull-left" id="learn">To many people, music is a powerful part in their personal life. Learning to play an instrument can help people to gain more concentration and release stress. However, from years of teaching and my personal learning experiences, playing piano is not easy. But, if people can start their piano lesson in a right path, it can save tons of time and energy and enjoy the happiness of playing piano. Different with other instruments, piano is self-sufficient. It can create melody and chords at the same time. Also, not like other instruments, people don't need to tune their piano every time before they play on it. Piano is also very helpful to build good music ears and understand how music system works.</p>
-				</div>
-
-				<img class="piano pull-right img-responsive" src="images/mypiano.jpg" alt="my piano">
-			</div>
+				<h3>Reading Music</h3>
+					<h4>Tempo</h4>
+					<p>Tempo to music is as important as heart beats to human. Playing music in a steady tempo makes music sound smoothly. Tempo marks of music are in italian. From Larghissimo to Pretissimo means the slowest to the fastest tempo. In another form of expression, tempo can also be marked as BPM - beats per minutes. </p>
+					<h4>Rhythm</h4>
+					<p>What forms rhythm is the division of the note's value. There are two ways of dividing note's value, diving by two is used more often than diving by three. The different way of division gives music different feeling in its movement.</p>
+					<h4>Music Notation: Treble Clef, Bass Clef and Staff</h4>
+					<p>All music notes are built in a five horizontal lines which called a staff. Between five horizontal lines, there are four spaces. The lines and spaces are counted from bottom to top. From first line to fifth line and first space to fourth space. Depending on what type of clef is put at the beginning of the staff(the very left side of staff), the notes has different names between lines and spaces in an alphabetical order from A to G. The most common clefs are treble clef and bass clef. Treble clef starts on the second line of a staff which is a G note and a bass clef starts on the fourth line which indicates a F note.</p>
+					<h4>Key signatures</h4>
+					<p>There are fifteen major and fifteen minor keys in a well-tempered tuning system. Different keys add different colors to music. Except C major and a minor, all keys need to be marked with key signatures. Recognize what key the music is written in is essential to make music sound right. There are seven sharps and seven flats in key signature. They come with a fixed order and add up from one to seven. In sharps, the order is FCGDAEB(Father Charles Goes Down And Ends Battle), flats goes with a completely reverse order, BEADGCF(Battle Ends And Down Goes Charles Father). </p>
 
 		</div>
-	</main>
-	<section>
-		<div class="container">
-			<h3 id="contact">Contact me</h3>
-		<form class="form-horizontal" role="form" method="post" action="index.php" id="contact-me">
-			<div class="form-group">
-				<label for="name" class="col-sm-2 control-label">Name</label>
-					<div class="col-sm-10">
-						<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
-					</div>
-			</div>
-				<div class="form-group">
-					<label for="email" class="col-sm-2 control-label">Email</label>
-					<div class="col-sm-10">
-						<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="message" class="col-sm-2 control-label">Message</label>
-					<div class="col-sm-10">
-						<textarea class="form-control" rows="4" name="message"></textarea>
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="human" class="col-sm-2 control-label">right hand + left hand = ?</label>
-					<div class="col-sm-10">
-						<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
-					</div>
-				</div>
-				<div class="form-group">
-					<div class="col-sm-10 col-sm-offset-2">
-						<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-					</div>
-				</div>
-				<div class="form-group">
-					<div class="col-sm-10 col-sm-offset-2">
-						<! Will be used to display an alert to the user>
-					</div>
-				</div>
-			</form>
-		</div>
-				</section>
 		</div><!--/.sfooter-content -->
 		<footer>
 			<p>copyright</p>
