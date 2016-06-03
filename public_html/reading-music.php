@@ -63,7 +63,7 @@
 								<li class="dropdown">
 									<a href="#reading-music" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-baspopup="true" aria-expanded="false">Reading music<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li>Tempo</li>
+										<li><a href="#tempo">Tempo</a></li>
 										<li>Rhythm</li>
 										<li>Music notation</li>
 										<li>Key signatures</li>
@@ -82,7 +82,7 @@
 					</div><!--nav container-->
 				</nav>
 				<h3>Reading Music</h3>
-					<h4>Tempo</h4>
+					<h4 id="tempo">Tempo</h4>
 					<p>Tempo to music is as important as heart beats to human. Playing music in a steady tempo makes music sound smoothly. Tempo marks of music are in italian. From Larghissimo to Pretissimo means the slowest to the fastest tempo. In another form of expression, tempo can also be marked as BPM - beats per minutes. </p>
 					<h4>Rhythm</h4>
 					<p>What forms rhythm is the division of the note's value. There are two ways of dividing note's value, diving by two is used more often than diving by three. The different way of division gives music different feeling in its movement.</p>
