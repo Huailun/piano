@@ -58,21 +58,21 @@
 								<li class="dropdown">
 									<a href="#about-piano" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-baspopup="true" aria-expanded="false">About Piano<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a class="btn btn-default btn-sm" href="#find" role="button">Find the right piano</a></li>
-										<li><a class="btn btn-info btn-sm" href="#finger" role="button">Finger Position</a></li>
+										<li><a class="btn btn-default btn-sm" href="about.php#find" role="button">Find the right piano</a></li>
+										<li><a class="btn btn-info btn-sm" href="about.php#finger" role="button">Finger Position</a></li>
 									</ul>
 								</li><!--/.dropdown for about piano -->
 								<li class="dropdown">
 									<a href="reading-music.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-baspopup="true" aria-expanded="false">Reading music<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="#tempo">Tempo</a></li>
-										<li><a href="#rhythm"></a></li>
-										<li><a href="#notation">Music notation</a></li>
-										<li><a href="#key">Key signatures</a></li>
+										<li><a href="reading-music.php#tempo">Tempo</a></li>
+										<li><a href="reading-music.php#rhythm">Rhythm</a></li>
+										<li><a href="#reading-music.php#notation">Music notation</a></li>
+										<li><a href="#reading-music.php#key">Key signatures</a></li>
 									</ul>
 								</li><!--/.dropdown for music theory -->
 								<li class="dropdown">
-									<a href="#link" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-baspopup="true" aria-expanded="false">Link<span class="caret"></span></a>
+									<a href="#link" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-baspopup="true" aria-expanded="false">Links<span class="caret"></span></a>
 									<ul class="dropdown-menu">
 										<li><a href="http://imslp.org/">IMSLP</a></li>
 										<li><a href="http://a.bestmetronome.com/">me</a></li>
@@ -99,7 +99,7 @@
 		<div class="container-fluid learn-more">
 			<div class="row">
 				<div class="col-md-6">
-					<p class="pull-left" id="learn">To many people, music is a powerful part in their personal life. Learning to play an instrument can help people to gain more concentration and release stress. However, from years of teaching and my personal learning experiences, playing piano is not easy. But, if people can start their piano lesson in a right path, it can save tons of time and energy and enjoy the happiness of playing piano. Different with other instruments, piano is self-sufficient. It can create melody and chords at the same time. Also, not like other instruments, people don't need to tune their piano every time before they play on it. Piano is also very helpful to build good music ears and understand how music system works.</p>
+					<p class="pull-left" id="learn">To many people, music is a powerful part of their personal life. Learning to play an instrument can help people to gain more concentration and release stress. From my years of teaching and personal learning experience, I can say that playing piano is not easy. But if you can start your piano lessons on the right path, it can save you time and energy and allow you to experience the joy of playing piano.<br>The piano is different from other instruments. It is self-sufficient. It can create a melody and harmonize with chords at the same time. Also, unlike other instruments, a piano doesn't need to be tuned every time it is played. Learning to play the piano is also very helpful in developing a good ear for music and understanding music theory.</p>
 				</div>
 
 				<img class="piano pull-right img-responsive" src="images/mypiano.jpg" alt="my piano">
