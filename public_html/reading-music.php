@@ -84,10 +84,12 @@
 		<main>
 			<h3>Reading Music</h3>
 				<h4 id="tempo">Tempo</h4>
-					<p>Tempo to music is as important as heart beats to human. Playing music in a steady tempo makes music sound smoothly. Tempo marks of music are in italian. From Larghissimo to Pretissimo means the slowest to the fastest tempo. In another form of expression, tempo can also be marked as BPM - beats per minutes. </p>
+					<p>Tempo to music is as important as heart beats to human. Playing music in a steady tempo makes music sound smoothly. Tempo marks of music are in italian. From Larghissimo to Pretissimo means the slowest to the fastest tempo. In another form of expression, tempo can also be marked as BPM - beats per minutes.</p>
+					<img src="images/tempo.jpg" alt="tempo">
 				<h4 id="rhythm">Rhythm</h4>
 					<p>What forms rhythm is the division of the note's value. There are two ways of dividing note's value, diving by two is used more often than diving by three. The different way of division gives music different feeling in its movement.</p>
 				<h4 id="notation">Music Notation: Treble Clef, Bass Clef and Staff</h4>
+					<img src="images/rhythm.png" alt="rhythm">
 					<p>All music notes are built in a five horizontal lines which called a staff. Between five horizontal lines, there are four spaces. The lines and spaces are counted from bottom to top. From first line to fifth line and first space to fourth space. Depending on what type of clef is put at the beginning of the staff(the very left side of staff), the notes has different names between lines and spaces in an alphabetical order from A to G. The most common clefs are treble clef and bass clef. Treble clef starts on the second line of a staff which is a G note and a bass clef starts on the fourth line which indicates a F note.</p>
 					<img src="images/images.png" alt="staff" class="clefs img-responsive">
 					<div class="container">
