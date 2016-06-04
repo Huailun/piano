@@ -45,14 +45,14 @@ body > .container {
 }
 
 .piano {
-	float: left;
-	width: 500px;
-	padding: 90px 20px 0px 20px;
+	float: right;
+	width: 450px;
+	padding: 100px 40px 0 0;
 }
 
 #learn {
-	font-size: 1.6em;
-	padding: 75px 0 20px 20px;
+	font-size: 1.5em;
+	padding: 75px 0 20px 40px;
 	margin: 20px 0;
 }
 .fingering {
