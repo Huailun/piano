@@ -101,7 +101,7 @@
 									give piano lessons. After completing my bachelor's degree in piano performance in Taipei, Taiwan,
 									I worked as a piano teacher and collaborative pianist. Later, I received my master's degree in
 									piano performance and piano pedagogy from the University of Houston in Houston, Texas. I
-									taught classes in piano, music fundamentals and music appreciation at a community college in
+									taught classes in piano, music fundamentals and music appreciation at Lone Star College
 									Cypress, Texas. I have found that everywhere, both in the eastern and western world, there are plenty of people looking to learn the piano. Recently, I have also been training to become a web developer. I hope to
 									incorporate my previous experiences into my new skills, in order to help people who are
 									interested in learning to play the piano.</em></p>
