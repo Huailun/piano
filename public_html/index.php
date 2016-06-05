@@ -101,7 +101,7 @@
 				<div class="col-md-6">
 					<p class="pull-left" id="learn">To many people, music is a powerful part of their personal life. Learning to play an instrument can help people to gain more concentration and release stress. From my years of teaching and personal learning experience, I can say that playing piano is not easy. But if you can start your piano lessons on the right path, it can save you time and energy and allow you to experience the joy of playing piano.The piano is different from other instruments. It is self-sufficient. It can create a melody and harmonize with chords at the same time. Also, unlike other instruments, a piano doesn't need to be tuned every time it is played. Learning to play the piano is also very helpful in developing a good ear for music and understanding music theory.</p>
 				</div>
-				<img class="piano pull-right img-responsive" src="images/mypiano.jpg" alt="my piano">
+				<img class="piano img-responsive" src="images/mypiano.jpg" alt="my piano">
 				
 			</div>
 

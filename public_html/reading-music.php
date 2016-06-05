@@ -86,7 +86,7 @@
 			<h3>Reading Music</h3>
 				<div class="container">
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-5">
 							<p id="tempo"><strong>Tempo</strong> is as important to music as a heart beat is to a person. Playing music in a steady tempo makes music flow smoothly. Tempo marks, in music notation, are in Italian. From Larghissimo to Pretissimo, there is a range of terms describing the slowest tempo to the fastest. Another way to express tempo is as beats per minute, or BPM.</p>
 							</div>
 								<img src="images/tempo.jpg" alt="tempo" class="tempo img-responsive pull-right">
@@ -102,7 +102,7 @@
 					</div><!--container of rhythm-->
 					<div class="container">
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-md-5">
 								<p id="notation"><strong>Music Notation:</strong>Music notes are arranged on a structure of five horizontal lines, which is called a staff. Between these lines, there are four spaces. The lines and spaces are counted from bottom to top, from the first line to the fifth line and the first space to the fourth space.<br>In each clef, the notes assigned to the lines and spaces are different. The most common clefs are the treble clef and the bass clef. The treble clef begins on the second line of the staff, which is a G note, and the bass clef starts on the fourth line, which indicates an F note.<br>Piano music is typically written on a grand staff, which consists of a treble clef (top) joined to a bass clef (bottom) in order to provide notation for both hands.</p>
 							</div>
 								<img src="images/images.png" alt="staff" class="clefs img-responsive">
