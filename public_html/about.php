@@ -110,16 +110,14 @@
 				<h2 class="about-piano" id="about"><em>Important tips about playing piano</em></h2>
 				<p id="find" class="find_piano"><strong>Find the right piano</strong><br>Just as the golden rule of real
 					estate is "Location, location, location!", the best way to master the piano is "Practice, practice,
-					practice!" Because of this, as someone who is interested in starting piano lessons, picking the right piano is an
-					important first step. A full-size, standard piano has eighty-eight keys; however, an
+					practice!" Because of this, as someone who is interested in starting piano lessons, picking the right piano is an important first step. A full-size, standard piano has eighty-eight keys; however, an
 					acoustic piano can cost an arm and a leg. My suggestion is to get a weighted electronic
 					keyboard with at least 61 keys, preferably one with a pedal. After getting a piano, it is time to start practicing
 					with it!</p>
 				<img class="roland img-responsive" src="images/roland.jpg" alt="keyboard">
 				<p id="finger" class="finger_position"><strong>Finger position</strong><br>In my opinion, starting directly from the five-finger position is the most effective way to
 					build a good foundation for learning. As all piano music requires the ten fingers to work together to
-					create fine music, it is very important to have equal strength in all fingers. Practicing
-					with all fingers from the beginning will prepare you to play more complex pieces and simplify the path to mastering the piano. Please see
+					create fine music, it is very important to have equal strength in all fingers(finger independence). Practicing with all fingers from the beginning will prepare you to play more complex pieces and simplify the path to mastering the piano. Please see
 					the picture below, which shows the numbers assigned to each of the fingers. Once you've memorized these, take a look at the
 					keyboard image above this paragraph. Notice the arrangement of the black keys: it is a two-three-two-three
 					pattern. Surrounding each group of two black keys group are three white keys. From left to right, these are the notes C, D, and E. The four white keys
