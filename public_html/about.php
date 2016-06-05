@@ -97,12 +97,11 @@
 					<div class="row">
 						<div class="col-sm-12">
 							<p id="about-me"><strong>About me: </strong><em>Hello, this is Ellen! I started playing the piano
-									at the age of five and have never stopped since. During my freshman year at university, I began to
-									give piano lessons. After completing my bachelor's degree in piano performance in Taipei, Taiwan,
+						at the age of five and have never stopped since. During my freshman year at university, I began to
+						give piano lessons. After completing my bachelor's degree in piano performance in Taipei, Taiwan,
 									I worked as a piano teacher and collaborative pianist. Later, I received my master's degree in
 									piano performance and piano pedagogy from the University of Houston in Houston, Texas. I
-									taught classes in piano, music fundamentals and music appreciation at Lone Star College
-									Cypress, Texas. I have found that everywhere, both in the eastern and western world, there are plenty of people looking to learn the piano. Recently, I have also been training to become a web developer. I hope to
+									taught classes in group piano, music fundamentals and music appreciation at Lone Star College in Cypress, Texas. I have found that everywhere, both in the eastern and western world, there are plenty of people looking to learn the piano. Recently, I have also been training to become a web developer. I hope to
 									incorporate my previous experiences into my new skills, in order to help people who are
 									interested in learning to play the piano.</em></p>
 						</div>
