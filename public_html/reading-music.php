@@ -95,7 +95,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-6">
-								<p id="rhythm"><strong>Rhythm</strong> is formed by the division of the note's value. There are two ways to divide a note. Dividing by two is used most often, followed by dividing by three. The different types of division are used to give music a distinct feeling in its movement.</p>
+								<p id="rhythm"><strong>Rhythm</strong> is a combination of different division of notes and this is formed by the division of the note's value. There are two ways to divide a note. Dividing by two is used most often, followed by dividing by three. The different types of division are used to give music a distinct feeling in its movement.</p>
 							</div>
 								<img src="images/rhythm.png" alt="rhythm" class="rhythm img-responsive">
 						</div>
