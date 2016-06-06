@@ -31,6 +31,19 @@
 		<script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
+
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<title>PWP</title>
 	</head>
 	<body class="sfooter">
@@ -46,48 +59,48 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand" href="#featured">Ellen's Online Piano Studio</a>
+							<a class="navbar-brand" href="#featured"><?php echo _("Ellen's Online Piano Studio"); ?></a>
 						</div><!--/.navbar-header -->
 						<div class="collapse navbar-collapse" id="collapse">
 							<!-- Collect the nav links and other content for toggling -->
 							<ul class="nav nav-pills navbar-right">
-								<li class="active"><a href="index.php">Home</a></li>
-								<li><a href="about.php">About Me</a></li>
+								<li class="active"><a href="index.php"><?php echo _("Home"); ?></a></li>
+								<li><a href="about.php"><?php echo _("About Me"); ?></a></li>
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Piano<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a class="btn btn-default btn-sm" href="about.php#find" role="button">Find the right piano</a></li>
-										<li><a class="btn btn-info btn-sm" href="about.php#finger" role="button">Finger Position</a></li>
+										<li><a class="btn btn-default btn-sm" href="about.php#find" role="button"><?php echo _("Find the right piano"); ?></a></li>
+										<li><a class="btn btn-info btn-sm" href="about.php#finger" role="button"><?php echo _("Finger Position"); ?></a></li>
 									</ul>
 								</li><!--/.dropdown for about piano -->
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reading music<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="reading-music.php#tempo">Tempo</a></li>
-										<li><a href="reading-music.php#rhythm">Rhythm</a></li>
-										<li><a href="reading-music.php#notation">Music notation</a></li>
-										<li><a href="reading-music.php#key">Key signatures</a></li>
+										<li><a href="reading-music.php#tempo"><?php echo _("Tempo"); ?></a></li>
+										<li><a href="reading-music.php#rhythm"><?php echo _("Rhythm"); ?></a></li>
+										<li><a href="reading-music.php#notation"><?php echo _("Music notation"); ?></a></li>
+										<li><a href="reading-music.php#key"><?php echo _("Key signatures"); ?></a></li>
 									</ul>
 								</li><!--/.dropdown for music theory -->
 								<li class="dropdown">
-									<a href="#link" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Links<span class="caret"></span></a>
+									<a href="#link" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _("Links"); ?><span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="http://imslp.org/">IMSLP</a></li>
-										<li><a href="http://a.bestmetronome.com/">Metronome</a></li>
-										<li><a href="https://www.musictheory.net/">Music theory</a></li>
+										<li><a href="http://imslp.org/"><?php echo _("IMSLP"); ?></a></li>
+										<li><a href="http://a.bestmetronome.com/"><?php echo _("Metronome"); ?></a></li>
+										<li><a href="https://www.musictheory.net/"><?php echo _("Music theory"); ?></a></li>
 									</ul>
 								</li><!--/.dropdown for link -->
-								<li><a href="index.php#contact-me">Contact Me</a></li>
+								<li><a href="index.php#contact-me"><?php echo _("Contact Me"); ?></a></li>
 							</ul>
 						</div><!--/.nav-collapse -->
 					</div><!--nav container-->
 				</nav>
 		<main>
-			<h3>Reading Music</h3>
+			<h3><?php echo _("Reading Music"); ?></h3>
 				<div class="container">
 					<div class="row">
 						<div class="col-md-5">
-							<p id="tempo"><strong>Tempo</strong> is as important to music as a heart beat is to a person. Playing music in a steady tempo makes music flow smoothly. Tempo marks, in music notation, are in Italian. From Larghissimo to Pretissimo, there is a range of terms describing the slowest tempo to the fastest. Another way to express tempo is as beats per minute, or BPM.</p>
+							<p id="tempo"><?php echo _("<strong>Tempo</strong> is as important to music as a heart beat is to a person. Playing music in a steady tempo makes music flow smoothly. Tempo marks, in music notation, are in Italian. From Larghissimo to Pretissimo, there is a range of terms describing the slowest tempo to the fastest. Another way to express tempo is as beats per minute, or BPM."); ?></p>
 							</div>
 								<img src="images/tempo.jpg" alt="tempo" class="tempo img-responsive pull-right">
 					</div>

@@ -31,6 +31,19 @@
 		<script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
+
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<title>PWP</title>
 	</head>
 	<body class="sfooter ">
@@ -110,42 +123,58 @@
 	<section>
 		<div class="container">
 			<h3 id="contact">Contact me</h3>
-		<form class="form-horizontal" role="form" method="post" action="index.php" id="contact-me">
-			<div class="form-group">
-				<label for="name" class="col-sm-2 control-label">Name</label>
-					<div class="col-sm-10">
-						<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
-					</div>
-			</div>
+			<!--Begin Contact Form-->
+			<form id="contact-form" action="php/mailer.php" method="post">
 				<div class="form-group">
-					<label for="email" class="col-sm-2 control-label">Email</label>
-					<div class="col-sm-10">
-						<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+					<label for="name">Name <span class="text-danger">*</span></label>
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</div>
+						<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="message" class="col-sm-2 control-label">Message</label>
-					<div class="col-sm-10">
-						<textarea class="form-control" rows="4" name="message"></textarea>
+					<label for="email">Email <span class="text-danger">*</span></label>
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</div>
+						<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="human" class="col-sm-2 control-label">right hand + left hand = ?</label>
-					<div class="col-sm-10">
-						<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+					<label for="subject">Subject</label>
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="fa fa-pencil" aria-hidden="true"></i>
+						</div>
+						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 					</div>
 				</div>
 				<div class="form-group">
-					<div class="col-sm-10 col-sm-offset-2">
-						<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+					<label for="message">Message <span class="text-danger">*</span></label>
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="fa fa-comment" aria-hidden="true"></i>
+						</div>
+						<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
 					</div>
 				</div>
-				<div class="form-group">
-					<div class="col-sm-10 col-sm-offset-2">
-						<! Will be used to display an alert to the user>
-					</div>
-				</div>
+
+				<!-- reCAPTCHA -->
+				<div class="g-recaptcha" data-sitekey="6Lc58CETAAAAALOTf19eSEJpTk3dEdx8dF6j2oy9"></div>
+
+				<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+				<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 			</form>
+
+			<!--empty area for form error/success output-->
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="output-area"></div>
+				</div>
+			</div>
 		</div>
 				</section>
 		</div><!--/.sfooter-content -->
