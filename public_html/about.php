@@ -56,8 +56,7 @@
 			<!-- begin bootstrap navbar -->
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="container-fluid">
-				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-					<div class="container">
+				<nav class="navbar navbar-default" role="navigation">
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
 									  data-target="#collapse" aria-expanded="false" aria-controls="navbar">
@@ -72,14 +71,14 @@
 							<!-- Collect the nav links and other content for toggling -->
 							<ul class="nav nav-pills navbar-right">
 								<li class="active"><a href="index.php">Home</a></li>
-								<li><a href="#about-me">About Me</a></li>
+								<li><a href="about.php#about-me">About Me</a></li>
 								<li class="dropdown">
 									<a href="#about-piano" class="dropdown-toggle" data-toggle="dropdown" role="button"
 										aria-baspopup="true" aria-expanded="false">About the Piano<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a class="btn btn-default btn-sm" href="#find" role="button">Find the Right Piano</a>
+										<li><a class="btn btn-default btn-sm" href="about.php#find" role="button">Find the Right Piano</a>
 										</li>
-										<li><a class="btn btn-info btn-sm" href="#finger" role="button">Finger Position</a></li>
+										<li><a class="btn btn-info btn-sm" href="about.php#finger" role="button">Finger Position</a></li>
 									</ul>
 								</li><!--/.dropdown for about piano -->
 								<li class="dropdown">
@@ -101,11 +100,11 @@
 										<li><a href="https://www.musictheory.net/">Music theory</a></li>
 									</ul>
 								</li><!--/.dropdown for link -->
-								<li><a href="index.php#contact-me">Contact Me</a></li>
+								<li><a href="index.php#contact">Contact Me</a></li>
 							</ul>
 						</div><!--/.nav-collapse -->
-					</div><!--nav container-->
 				</nav>
+			</div><!--container-fluid -->
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
@@ -141,5 +140,5 @@
 			<footer>
 				<p>copyright</p>
 			</footer>
-		</div><!-- container-->
 	</body>
+</html>

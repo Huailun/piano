@@ -51,50 +51,55 @@
 			<!-- begin bootstrap navbar -->
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="container-fluid">
-				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<nav class="navbar navbar-default" role="navigation">
 						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="navbar">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+									  data-target="#collapse" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only">Toggle navigation</span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand" href="#featured"><?php echo _("Ellen's Online Piano Studio"); ?></a>
+							<a class="navbar-brand" href="#featured">Ellen's Online Piano Studio</a>
 						</div><!--/.navbar-header -->
 						<div class="collapse navbar-collapse" id="collapse">
 							<!-- Collect the nav links and other content for toggling -->
 							<ul class="nav nav-pills navbar-right">
-								<li class="active"><a href="index.php"><?php echo _("Home"); ?></a></li>
-								<li><a href="about.php"><?php echo _("About Me"); ?></a></li>
+								<li class="active"><a href="index.php">Home</a></li>
+								<li><a href="about.php#about-me">About Me</a></li>
 								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Piano<span class="caret"></span></a>
+									<a href="#about-piano" class="dropdown-toggle" data-toggle="dropdown" role="button"
+										aria-baspopup="true" aria-expanded="false">About the Piano<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a class="btn btn-default btn-sm" href="about.php#find" role="button"><?php echo _("Find the right piano"); ?></a></li>
-										<li><a class="btn btn-info btn-sm" href="about.php#finger" role="button"><?php echo _("Finger Position"); ?></a></li>
+										<li><a class="btn btn-default btn-sm" href="about.php#find" role="button">Find the Right Piano</a>
+										</li>
+										<li><a class="btn btn-info btn-sm" href="about.php#finger" role="button">Finger Position</a></li>
 									</ul>
 								</li><!--/.dropdown for about piano -->
 								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reading music<span class="caret"></span></a>
+									<a href="#reading-music.php" class="dropdown-toggle" data-toggle="dropdown" role="button"
+										aria-baspopup="true" aria-expanded="false">Reading music<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="reading-music.php#tempo"><?php echo _("Tempo"); ?></a></li>
-										<li><a href="reading-music.php#rhythm"><?php echo _("Rhythm"); ?></a></li>
-										<li><a href="reading-music.php#notation"><?php echo _("Music notation"); ?></a></li>
-										<li><a href="reading-music.php#key"><?php echo _("Key signatures"); ?></a></li>
+										<li><a href="reading-music.php#tempo" class="btn btn-default btn-sm" role="button">Tempo</a></li>
+										<li><a href="reading-music.php#rhythm" class="btn btn-info btn-sm" role="button">Rhythm</a></li>
+										<li><a href="reading-music.php#notation" class="btn btn-success btn-sm" role="button">Music Notation</a></li>
+										<li><a href="reading-music.php#key" class="btn btn-default btn-sm" role="button">Key Signatures</a></li>
 									</ul>
 								</li><!--/.dropdown for music theory -->
 								<li class="dropdown">
-									<a href="#link" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _("Links"); ?><span class="caret"></span></a>
+									<a href="#link" class="dropdown-toggle" data-toggle="dropdown" role="button"
+										aria-haspopup="true" aria-expanded="false">Links<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="http://imslp.org/"><?php echo _("IMSLP"); ?></a></li>
-										<li><a href="http://a.bestmetronome.com/"><?php echo _("Metronome"); ?></a></li>
-										<li><a href="https://www.musictheory.net/"><?php echo _("Music theory"); ?></a></li>
+										<li><a href="http://imslp.org/">IMSLP</a></li>
+										<li><a href="http://a.bestmetronome.com/">Metronome</a></li>
+										<li><a href="https://www.musictheory.net/">Music theory</a></li>
 									</ul>
 								</li><!--/.dropdown for link -->
-								<li><a href="index.php#contact-me"><?php echo _("Contact Me"); ?></a></li>
+								<li><a href="index.php#contact">Contact Me</a></li>
 							</ul>
 						</div><!--/.nav-collapse -->
-					</div><!--nav container-->
 				</nav>
+			</div>
 		<main>
 			<h3><?php echo _("Reading Music"); ?></h3>
 				<div class="container">
@@ -129,7 +134,6 @@
 								<img src="images/circle-of5th.jpg" alt="circle-of-5th" class="circle img-responsive pull-right">
 						</div>
 					</div>
-		</div>
 		</main>
 		</div><!--/.sfooter-content -->
 
@@ -137,3 +141,4 @@
 			<p>copyright</p>
 		</footer>
 	</body>
+</html>
