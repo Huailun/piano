@@ -103,6 +103,7 @@
 			</div>
 	<section class="welcome">
 		<div class="container-fluid">
+			<img src="images/keys.jpg" class="pull-right img-responsive keys" alt="key">
 			<p class="h1">Bach gave us God's word.</p>
 			<p class="h1">Mozart gave us God's laughter.</p>
 			<p class="h1">Beethoven gave us God's fire.</p>

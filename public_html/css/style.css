@@ -44,10 +44,15 @@ body > .container {
 	text-shadow: 2px 2px 2px #000;
 }
 
+.keys {
+	width: 500px;
+	height: 200px;
+}
+
 .piano {
 	float: right;
-	width: 475px;
-	padding: 100px 90px 0 0;
+	width: 500px;
+	padding: 90px 80px 0 0;
 }
 
 #learn {
