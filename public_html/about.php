@@ -119,7 +119,7 @@
 						</div>
 					</div>
 				</div><!--/. container of about me -->
-				<h2 class="about-piano" id="about"><em>Important tips about playing piano</em></h2>
+				<h3 class="about-piano text-center" id="about"><em>Important tips about playing piano</em></h3>
 				<p id="find" class="find_piano"><strong>Find the right piano</strong><br>Just as the golden rule of real
 					estate is "Location, location, location!", the best way to master the piano is "Practice, practice,
 					practice!" Because of this, as someone who is interested in starting piano lessons, picking the right piano is an important first step. A full-size, standard piano has eighty-eight keys; however, an

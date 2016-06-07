@@ -101,7 +101,7 @@
 				</nav>
 			</div>
 		<main>
-			<h3><?php echo _("Reading Music"); ?></h3>
+			<p class="h3 text-center"><?php echo _("Reading Music"); ?></p>
 				<div class="container">
 					<div class="row">
 						<div class="col-md-5">
