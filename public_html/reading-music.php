@@ -60,42 +60,42 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand" href="#featured">Ellen's Online Piano Studio</a>
+							<a class="navbar-brand" href="#featured"><?php echo _("Ellen's Online Piano Studio"); ?></a>
 						</div><!--/.navbar-header -->
 						<div class="collapse navbar-collapse" id="collapse">
 							<!-- Collect the nav links and other content for toggling -->
 							<ul class="nav nav-pills navbar-right">
-								<li class="active"><a href="index.php">Home</a></li>
-								<li><a href="about.php#about-me">About Me</a></li>
+								<li class="active"><a href="index.php"><?php echo _("Home"); ?></a></li>
+								<li><a href="about.php#about-me"><?php echo _("About Me"); ?></a></li>
 								<li class="dropdown">
 									<a href="#about-piano" class="dropdown-toggle" data-toggle="dropdown" role="button"
-										aria-baspopup="true" aria-expanded="false">About the Piano<span class="caret"></span></a>
+										aria-baspopup="true" aria-expanded="false"><?php echo _("About the Piano"); ?><span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a class="btn btn-default btn-sm" href="about.php#find" role="button">Find the Right Piano</a>
+										<li><a class="btn btn-default btn-sm" href="about.php#find" role="button"><?php echo _("Find the Right Piano"); ?></a>
 										</li>
-										<li><a class="btn btn-info btn-sm" href="about.php#finger" role="button">Finger Position</a></li>
+										<li><a class="btn btn-info btn-sm" href="about.php#finger" role="button"><?php echo _("Finger Position"); ?></a></li>
 									</ul>
 								</li><!--/.dropdown for about piano -->
 								<li class="dropdown">
 									<a href="#reading-music.php" class="dropdown-toggle" data-toggle="dropdown" role="button"
-										aria-baspopup="true" aria-expanded="false">Reading music<span class="caret"></span></a>
+										aria-baspopup="true" aria-expanded="false"><?php echo _("Reading music"); ?><span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="reading-music.php#tempo" class="btn btn-default btn-sm" role="button">Tempo</a></li>
-										<li><a href="reading-music.php#rhythm" class="btn btn-info btn-sm" role="button">Rhythm</a></li>
-										<li><a href="reading-music.php#notation" class="btn btn-success btn-sm" role="button">Music Notation</a></li>
-										<li><a href="reading-music.php#key" class="btn btn-default btn-sm" role="button">Key Signatures</a></li>
+										<li><a href="reading-music.php#tempo" class="btn btn-default btn-sm" role="button"><?php echo _("Tempo"); ?></a></li>
+										<li><a href="reading-music.php#rhythm" class="btn btn-info btn-sm" role="button"><?php echo _("Rhythm"); ?></a></li>
+										<li><a href="reading-music.php#notation" class="btn btn-success btn-sm" role="button"><?php echo _("Music Notation"); ?></a></li>
+										<li><a href="reading-music.php#key" class="btn btn-default btn-sm" role="button"><?php echo _("Key Signatures"); ?></a></li>
 									</ul>
 								</li><!--/.dropdown for music theory -->
 								<li class="dropdown">
 									<a href="#link" class="dropdown-toggle" data-toggle="dropdown" role="button"
-										aria-haspopup="true" aria-expanded="false">Links<span class="caret"></span></a>
+										aria-haspopup="true" aria-expanded="false"><?php echo _("Links"); ?><span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="http://imslp.org/">IMSLP</a></li>
-										<li><a href="http://a.bestmetronome.com/">Metronome</a></li>
-										<li><a href="https://www.musictheory.net/">Music theory</a></li>
+										<li><a href="http://imslp.org/"><?php echo _("IMSLP"); ?></a></li>
+										<li><a href="http://a.bestmetronome.com/"><?php echo _("Metronome"); ?></a></li>
+										<li><a href="https://www.musictheory.net/"><?php echo _("Music theory"); ?></a></li>
 									</ul>
 								</li><!--/.dropdown for link -->
-								<li><a href="index.php#contact">Contact Me</a></li>
+								<li><a href="index.php#contact"><?php echo _("Contact Me"); ?></a></li>
 							</ul>
 						</div><!--/.nav-collapse -->
 				</nav>
@@ -105,7 +105,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-5">
-							<p id="tempo"><?php echo _("<strong>Tempo</strong> is as important to music as a heart beat is to a person. Playing music in a steady tempo makes music flow smoothly. Tempo marks, in music notation, are in Italian. From Larghissimo to Pretissimo, there is a range of terms describing the slowest tempo to the fastest. Another way to express tempo is as beats per minute, or BPM."); ?></p>
+							<p id="tempo"><strong><?php echo _("Tempo"); ?></strong><?php echo _("is as important to music as a heart beat is to a person. Playing music in a steady tempo makes music flow smoothly. Tempo marks, in music notation, are in Italian. From Larghissimo to Pretissimo, there is a range of terms describing the slowest tempo to the fastest. Another way to express tempo is as beats per minute, or BPM."); ?></p>
 							</div>
 								<img src="images/tempo.jpg" alt="tempo" class="tempo img-responsive pull-right">
 					</div>
@@ -113,7 +113,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-6">
-								<p id="rhythm"><strong>Rhythm</strong> is a combination of different types of notes and the type is formed by the division of the note's value. There are two ways to divide a note. Dividing by two is used most often, followed by dividing by three. The different types of division are used to give music a distinct feeling in its movement.</p>
+								<p id="rhythm"><strong><?php echo _("Rhythm"); ?></strong><?php echo _("is a combination of different types of notes and the type is formed by the division of the note's value. There are two ways to divide a note. Dividing by two is used most often, followed by dividing by three. The different types of division are used to give music a distinct feeling in its movement."); ?></p>
 							</div>
 								<img src="images/rhythm.png" alt="rhythm" class="rhythm img-responsive">
 						</div>
@@ -121,7 +121,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-5">
-								<p id="notation"><strong>Music Notation:</strong>Music notes are arranged on a structure of five horizontal lines, which is called a staff. Between these lines, there are four spaces. The lines and spaces are counted from bottom to top, from the first line to the fifth line and the first space to the fourth space.<br>In each clef, the notes assigned to the lines and spaces are different. The most common clefs are the treble clef and the bass clef. The treble clef begins on the second line of the staff, which is a G note, and the bass clef starts on the fourth line, which indicates an F note.<br>Piano music is typically written on a grand staff, which consists of a treble clef (top) joined to a bass clef (bottom) in order to provide notation for both hands.</p>
+								<p id="notation"><strong><?php echo _("Music Notation:"); ?></strong><?php echo _("Music notes are arranged on a structure of five horizontal lines, which is called a staff. Between these lines, there are four spaces. The lines and spaces are counted from bottom to top, from the first line to the fifth line and the first space to the fourth space. In each clef, the notes assigned to the lines and spaces are different. The most common clefs are the treble clef and the bass clef. The treble clef begins on the second line of the staff, which is a G note, and the bass clef starts on the fourth line, which indicates an F note.Piano music is typically written on a grand staff, which consists of a treble clef (top) joined to a bass clef (bottom) in order to provide notation for both hands."); ?></p>
 							</div>
 								<img src="images/images.png" alt="staff" class="clefs img-responsive">
 						</div>
@@ -129,7 +129,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-6">
-								<p class="pull-left" id="key"><strong>Key signatures:</strong>There are fifteen major and fifteen minor keys in a well-tempered tuning system. Different keys can add different colors to a piece of music. Except for C major and A minor, all keys need to be marked with key signatures. Recognizing which key a piece of music is written in is essential to playing it correctly. There are seven sharps (#) and seven flats (b) in a key signature. They come with a fixed order and add up from one to seven. The order of the sharps is FCGDAEB(Father Charles Goes Down And Ends Battle.) Flats go in the reverse order, BEADGCF(Battle Ends And Down Goes Charles Father).</p>
+								<p class="pull-left" id="key"><strong><?php echo _("Key signatures:"); ?></strong><?php echo _("There are fifteen major and fifteen minor keys in a well-tempered tuning system. Different keys can add different colors to a piece of music. Except for C major and A minor, all keys need to be marked with key signatures. Recognizing which key a piece of music is written in is essential to playing it correctly. There are seven sharps (#) and seven flats (b) in a key signature. They come with a fixed order and add up from one to seven. The order of the sharps is FCGDAEB(Father Charles Goes Down And Ends Battle.) Flats go in the reverse order, BEADGCF(Battle Ends And Down Goes Charles Father)."); ?></p>
 							</div>
 								<img src="images/circle-of5th.jpg" alt="circle-of-5th" class="circle img-responsive pull-right">
 						</div>

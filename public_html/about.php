@@ -65,42 +65,42 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand" href="#featured">Ellen's Online Piano Studio</a>
+							<a class="navbar-brand" href="#featured"><?php echo _("Ellen's Online Piano Studio"); ?></a>
 						</div><!--/.navbar-header -->
 						<div class="collapse navbar-collapse" id="collapse">
 							<!-- Collect the nav links and other content for toggling -->
 							<ul class="nav nav-pills navbar-right">
-								<li class="active"><a href="index.php">Home</a></li>
-								<li><a href="about.php#about-me">About Me</a></li>
+								<li class="active"><a href="index.php"><?php echo _("Home"); ?></a></li>
+								<li><a href="about.php#about-me"><?php echo _("About Me"); ?></a></li>
 								<li class="dropdown">
 									<a href="#about-piano" class="dropdown-toggle" data-toggle="dropdown" role="button"
-										aria-baspopup="true" aria-expanded="false">About the Piano<span class="caret"></span></a>
+										aria-baspopup="true" aria-expanded="false"><?php echo _("About the Piano"); ?><span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a class="btn btn-default btn-sm" href="about.php#find" role="button">Find the Right Piano</a>
+										<li><a class="btn btn-default btn-sm" href="about.php#find" role="button"><?php echo _("Find the Right Piano"); ?></a>
 										</li>
-										<li><a class="btn btn-info btn-sm" href="about.php#finger" role="button">Finger Position</a></li>
+										<li><a class="btn btn-info btn-sm" href="about.php#finger" role="button"><?php echo _("Finger Position"); ?></a></li>
 									</ul>
 								</li><!--/.dropdown for about piano -->
 								<li class="dropdown">
 									<a href="#reading-music" class="dropdown-toggle" data-toggle="dropdown" role="button"
-										aria-baspopup="true" aria-expanded="false">Reading music<span class="caret"></span></a>
+										aria-baspopup="true" aria-expanded="false"><?php echo _("Reading music"); ?><span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="reading-music.php#tempo" class="btn btn-default btn-sm" role="button">Tempo</a></li>
-										<li><a href="reading-music.php#rhythm" class="btn btn-info btn-sm" role="button">Rhythm</a></li>
-										<li><a href="reading-music.php#notation" class="btn btn-success btn-sm" role="button">Music Notation</a></li>
-										<li><a href="reading-music.php#key" class="btn btn-default btn-sm" role="button">Key Signatures</a></li>
+										<li><a href="reading-music.php#tempo" class="btn btn-default btn-sm" role="button"><?php echo _("Tempo"); ?></a></li>
+										<li><a href="reading-music.php#rhythm" class="btn btn-info btn-sm" role="button"><?php echo _("Rhythm"); ?></a></li>
+										<li><a href="reading-music.php#notation" class="btn btn-success btn-sm" role="button"><?php echo _("Music Notation"); ?></a></li>
+										<li><a href="reading-music.php#key" class="btn btn-default btn-sm" role="button"><?php echo _("Key Signatures"); ?></a></li>
 									</ul>
 								</li><!--/.dropdown for music theory -->
 								<li class="dropdown">
 									<a href="#link" class="dropdown-toggle" data-toggle="dropdown" role="button"
-										aria-haspopup="true" aria-expanded="false">Links<span class="caret"></span></a>
+										aria-haspopup="true" aria-expanded="false"><?php echo _("Links"); ?><span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="http://imslp.org/">IMSLP</a></li>
-										<li><a href="http://a.bestmetronome.com/">Metronome</a></li>
-										<li><a href="https://www.musictheory.net/">Music theory</a></li>
+										<li><a href="http://imslp.org/"><?php echo _("IMSLP"); ?></a></li>
+										<li><a href="http://a.bestmetronome.com/"><?php echo _("Metronome"); ?></a></li>
+										<li><a href="https://www.musictheory.net/"><?php echo _("Music theory"); ?></a></li>
 									</ul>
 								</li><!--/.dropdown for link -->
-								<li><a href="index.php#contact">Contact Me</a></li>
+								<li><a href="index.php#contact"><?php echo _("Contact Me"); ?></a></li>
 							</ul>
 						</div><!--/.nav-collapse -->
 				</nav>
@@ -108,33 +108,32 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
-							<p id="about-me"><strong>About me: </strong><em>Hello, this is Ellen! I started playing the piano
+							<p id="about-me"><strong><?php echo _("About me:"); ?> </strong><em><?php echo _("Hello, this is Ellen! I started playing the piano
 						at the age of five and have never stopped since. During my freshman year at university, I began to
 						give piano lessons. After completing my bachelor's degree in piano performance in Taipei, Taiwan,
 									I worked as a piano teacher and collaborative pianist. Later, I received my master's degree in
 									piano performance and piano pedagogy from the University of Houston in Houston, Texas. I
 									taught classes in group piano, music fundamentals and music appreciation at Lone Star College in Cypress, Texas. I have found that everywhere, both in the eastern and western world, there are plenty of people looking to learn the piano. Recently, I have also been training to become a web developer. I hope to
 									incorporate my previous experiences into my new skills, in order to help people who are
-									interested in learning to play the piano.</em></p>
+									interested in learning to play the piano."); ?></em></p>
 						</div>
 					</div>
 				</div><!--/. container of about me -->
-				<h3 class="about-piano text-center" id="about"><em>Important tips about playing piano</em></h3>
-				<p id="find" class="find_piano"><strong>Find the right piano</strong><br>Just as the golden rule of real
+				<h3 class="about-piano text-center" id="about"><em><?php echo _("Important tips about playing piano"); ?></em></h3>
+				<p id="find" class="find_piano"><strong><?php echo _("Find the right piano"); ?></strong><br><?php echo _('Just as the golden rule of real
 					estate is "Location, location, location!", the best way to master the piano is "Practice, practice,
 					practice!" Because of this, as someone who is interested in starting piano lessons, picking the right piano is an important first step. A full-size, standard piano has eighty-eight keys; however, an
 					acoustic piano can cost an arm and a leg. My suggestion is to get a weighted electronic
 					keyboard with at least 61 keys, preferably one with a pedal. After getting a piano, it is time to start practicing
-					with it!</p>
+					with it!'); ?></p>
 				<img class="roland img-responsive" src="images/roland.jpg" alt="keyboard">
-				<p id="finger" class="finger_position"><strong>Finger position</strong><br>In my opinion, starting directly from the five-finger position is the most effective way to
+				<p id="finger" class="finger_position"><strong><?php echo _("Finger position"); ?></strong><br><?php echo _("In my opinion, starting directly from the five-finger position is the most effective way to
 					build a good foundation for learning. As all piano music requires the ten fingers to work together to
-					create fine music, it is very important to have equal strength in all fingers (finger independence). Practicing with all fingers from the beginning will prepare you to play more complex pieces and simplify the path to mastering the piano. Please see
-					the picture below, which shows the numbers assigned to each of the fingers. Once you've memorized these, take a look at the
+					create fine music, it is very important to have equal strength in all fingers-finger independence. Practicing with all fingers from the beginning will prepare you to play more complex pieces and simplify the path to mastering the piano. Please see the picture below, which shows the numbers assigned to each of the fingers. Once you've memorized these, take a look at the
 					keyboard image above this paragraph. Notice the arrangement of the black keys: it is a two-three-two-three
 					pattern. Surrounding each group of two black keys group are three white keys. From left to right, these are the notes C, D, and E. The four white keys
-					surrounding the group of three black keys are F, G, A, and B.<br>Put your right hand finger number 1 on the middle C and your left hand finger number
-					5 on the next C to the left. Now rest your other fingers on the white keys next to each other. You are now in five finger position in the key of C major. Play around with this position, and have fun!</p>
+					surrounding the group of three black keys are F, G, A, and B.Put your right hand finger number 1 on the middle C and your left hand finger number
+					5 on the next C to the left. Now rest your other fingers on the white keys next to each other. You are now in five finger position in the key of C major. Play around with this position, and have fun!"); ?></p>
 				<img class="fingers img-responsive" src="images/fingering.jpg" alt="fingers">
 			</div><!--/.sfooter-content -->
 			<footer>

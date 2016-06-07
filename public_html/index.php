@@ -61,42 +61,41 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand" href="#featured">Ellen's Online Piano Studio</a>
+							<a class="navbar-brand" href="#featured"><?php echo _("Ellen's Online Piano Studio"); ?></a>
 						</div><!--/.navbar-header -->
 						<div class="collapse navbar-collapse" id="collapse">
 							<!-- Collect the nav links and other content for toggling -->
 							<ul class="nav nav-pills navbar-right">
-								<li class="active"><a href="index.php">Home</a></li>
-								<li><a href="about.php#about-me">About Me</a></li>
+								<li class="active"><a href="index.php"><?php echo _("Home"); ?></a></li>
+								<li><a href="about.php#about-me"><?php echo _("About Me"); ?></a></li>
 								<li class="dropdown">
 									<a href="#about-piano" class="dropdown-toggle" data-toggle="dropdown" role="button"
-										aria-baspopup="true" aria-expanded="false">About the Piano<span class="caret"></span></a>
+										aria-baspopup="true" aria-expanded="false"><?php echo _("About the Piano"); ?><span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a class="btn btn-default btn-sm" href="about.php#find" role="button">Find the Right Piano</a>
-										</li>
-										<li><a class="btn btn-info btn-sm" href="about.php#finger" role="button">Finger Position</a></li>
+										<li><a class="btn btn-default btn-sm" href="about.php#find" role="button"><?php echo _("Find the Right Piano"); ?></a></li>
+										<li><a class="btn btn-info btn-sm" href="about.php#finger" role="button"><?php echo _("Finger Position"); ?></a></li>
 									</ul>
 								</li><!--/.dropdown for about piano -->
 								<li class="dropdown">
 									<a href="#reading-music" class="dropdown-toggle" data-toggle="dropdown" role="button"
-										aria-baspopup="true" aria-expanded="false">Reading music<span class="caret"></span></a>
+										aria-baspopup="true" aria-expanded="false"><?php echo _("Reading music"); ?><span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="reading-music.php#tempo" class="btn btn-default btn-sm" role="button">Tempo</a></li>
-										<li><a href="reading-music.php#rhythm" class="btn btn-info btn-sm" role="button">Rhythm</a></li>
-										<li><a href="reading-music.php#notation" class="btn btn-success btn-sm" role="button">Music Notation</a></li>
-										<li><a href="reading-music.php#key" class="btn btn-default btn-sm" role="button">Key Signatures</a></li>
+										<li><a href="reading-music.php#tempo" class="btn btn-default btn-sm" role="button"><?php echo _("Tempo"); ?></a></li>
+										<li><a href="reading-music.php#rhythm" class="btn btn-info btn-sm" role="button"><?php echo _("Rhythm"); ?></a></li>
+										<li><a href="reading-music.php#notation" class="btn btn-success btn-sm" role="button"><?php echo _("Music Notation"); ?></a></li>
+										<li><a href="reading-music.php#key" class="btn btn-default btn-sm" role="button"><?php echo _("Key Signatures"); ?></a></li>
 									</ul>
 								</li><!--/.dropdown for music theory -->
 								<li class="dropdown">
 									<a href="#link" class="dropdown-toggle" data-toggle="dropdown" role="button"
-										aria-haspopup="true" aria-expanded="false">Links<span class="caret"></span></a>
+										aria-haspopup="true" aria-expanded="false"><?php echo _("Links"); ?><span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="http://imslp.org/">IMSLP</a></li>
-										<li><a href="http://a.bestmetronome.com/">Metronome</a></li>
-										<li><a href="https://www.musictheory.net/">Music theory</a></li>
+										<li><a href="http://imslp.org/"><?php echo _("IMSLP"); ?></a></li>
+										<li><a href="http://a.bestmetronome.com/"><?php echo _("Metronome"); ?></a></li>
+										<li><a href="https://www.musictheory.net/"><?php echo _("Music theory"); ?></a></li>
 									</ul>
 								</li><!--/.dropdown for link -->
-								<li><a href="index.php#contact">Contact Me</a></li>
+								<li><a href="index.php#contact"><?php echo _("Contact Me"); ?></a></li>
 							</ul>
 						</div><!--/.nav-collapse -->
 				</nav>
@@ -104,12 +103,12 @@
 	<section class="welcome">
 		<div class="container-fluid">
 			<img src="images/keys.jpg" class="pull-right img-responsive keys" alt="key">
-			<p class="h1">Bach gave us God's word.</p>
-			<p class="h1">Mozart gave us God's laughter.</p>
-			<p class="h1">Beethoven gave us God's fire.</p>
-			<p class="h1">God gave us Music that we might pray without words.</p>
-			<h2><em>Welcome to Ellen's Online Piano Studio</em></h2>
-			<p><a class="btn btn-primary btn-md" href="#learn" role="button">Learn more</a></p>
+			<p class="h1"><?php echo _("Bach gave us God's word."); ?></p>
+			<p class="h1"><?php echo _("Mozart gave us God's laughter."); ?></p>
+			<p class="h1"><?php echo _("Beethoven gave us God's fire."); ?></p>
+			<p class="h1"><?php echo _("God gave us Music that we might pray without words."); ?></p>
+			<h2><em><?php echo _("Welcome to Ellen's Online Piano Studio"); ?></em></h2>
+			<p><a class="btn btn-primary btn-md" href="#learn" role="button"><?php echo _("Learn more"); ?></a></p>
 		</div>
 	</section>
 
@@ -117,21 +116,20 @@
 		<div class="container-fluid learn-more">
 			<div class="row">
 				<div class="col-md-6">
-					<p class="pull-left" id="learn">To many people, music is a powerful part of their personal life. Learning to play an instrument can help people to gain more concentration and release stress. From my years of teaching and personal learning experience, I can say that playing piano is not easy. But if you can start your piano lessons on the right path, it can save you time and energy and allow you to experience the joy of playing piano.The piano is different from other instruments. It is self-sufficient. It can create a melody and harmonize with chords at the same time. Also, unlike other instruments, a piano doesn't need to be tuned every time it is played. Learning to play the piano is also very helpful in developing a good ear for music and understanding music theory.</p>
+					<p class="pull-left" id="learn"><?php echo _("To many people, music is a powerful part of their personal life. Learning to play an instrument can help people to gain more concentration and release stress. From my years of teaching and personal learning experience, I can say that playing piano is not easy. But if you can start your piano lessons on the right path, it can save you time and energy and allow you to experience the joy of playing piano.The piano is different from other instruments. It is self-sufficient. It can create a melody and harmonize with chords at the same time. Also, unlike other instruments, a piano doesn't need to be tuned every time it is played. Learning to play the piano is also very helpful in developing a good ear for music and understanding music theory."); ?></p>
 				</div>
 				<img class="piano img-responsive" src="images/mypiano.jpg" alt="my piano">
-				
 			</div>
 
 		</div>
 	</main>
 	<section>
 		<div class="container">
-			<h3 id="contact">Contact me</h3>
+			<h3 id="contact"><?php echo _("Contact me"); ?></h3>
 			<!--Begin Contact Form-->
 			<form id="contact-form" action="php/mailer.php" method="post">
 				<div class="form-group">
-					<label for="name">Name <span class="text-danger">*</span></label>
+					<label for="name"><?php echo _("Name"); ?><span class="text-danger">*</span></label>
 					<div class="input-group">
 						<div class="input-group-addon">
 							<i class="fa fa-user" aria-hidden="true"></i>
@@ -140,7 +138,7 @@
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="email">Email <span class="text-danger">*</span></label>
+					<label for="email"><?php echo _("Email"); ?><span class="text-danger">*</span></label>
 					<div class="input-group">
 						<div class="input-group-addon">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
@@ -149,7 +147,7 @@
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="subject">Subject</label>
+					<label for="subject"><?php echo _("Subject"); ?></label>
 					<div class="input-group">
 						<div class="input-group-addon">
 							<i class="fa fa-pencil" aria-hidden="true"></i>
@@ -158,7 +156,7 @@
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="message">Message <span class="text-danger">*</span></label>
+					<label for="message"><?php echo _("Message"); ?><span class="text-danger">*</span></label>
 					<div class="input-group">
 						<div class="input-group-addon">
 							<i class="fa fa-comment" aria-hidden="true"></i>
@@ -170,8 +168,8 @@
 				<!-- reCAPTCHA -->
 				<div class="g-recaptcha" data-sitekey="6Lc58CETAAAAALOTf19eSEJpTk3dEdx8dF6j2oy9"></div>
 
-				<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-				<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+				<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i><?php echo _("Send"); ?></button>
+				<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i><?php echo _("Reset"); ?></button>
 			</form>
 
 			<!--empty area for form error/success output-->
