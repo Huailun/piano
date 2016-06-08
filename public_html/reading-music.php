@@ -44,7 +44,7 @@
 
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
-		<title>PWP</title>
+		<title><?php echo _("Ellen's Piano Studio"); ?></title>
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">
