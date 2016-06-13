@@ -49,15 +49,26 @@ body > .container {
 	height: 200px;
 }
 
+.learn-wrapper {
+	padding: 0 20px;
+}
+
 .piano {
-	float: right;
 	width: 500px;
-	padding: 90px 80px 0 0;
+	text-align: center;
+	padding: 90px 0 20px 0;
+}
+
+@media(min-width: 991px) {
+	.piano {
+		padding-left: 60px;
+	}
 }
 
 #learn {
-	font-size: 1.5em;
-	padding: 75px 0 10px 40px;
+	font-size: 1.6em;
+	text-align: left;
+	padding: 75px 0 10px 20px;
 	margin: 20px 0;
 }
 .fingering {

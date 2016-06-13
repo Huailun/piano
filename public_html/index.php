@@ -16,6 +16,9 @@
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
+		<!--FontAweseom-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 		<!-- OUR CUSTOM CSS -->
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 
@@ -31,8 +34,6 @@
 		<script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-		<!-- jQuery -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
@@ -70,7 +71,7 @@
 								<li><a href="about.php#about-me"><?php echo _("About Me"); ?></a></li>
 								<li class="dropdown">
 									<a href="#about-piano" class="dropdown-toggle" data-toggle="dropdown" role="button"
-										aria-baspopup="true" aria-expanded="false"><?php echo _("About the Piano"); ?><span class="caret"></span></a>
+										aria-haspopup="true" aria-expanded="false"><?php echo _("About the Piano"); ?><span class="caret"></span></a>
 									<ul class="dropdown-menu">
 										<li><a class="btn btn-default btn-sm" href="about.php#find" role="button"><?php echo _("Find the Right Piano"); ?></a></li>
 										<li><a class="btn btn-info btn-sm" href="about.php#finger" role="button"><?php echo _("Finger Position"); ?></a></li>
@@ -114,11 +115,13 @@
 
 	<main>
 		<div class="container-fluid learn-more">
-			<div class="row">
-				<div class="col-md-6">
-					<p class="pull-left" id="learn"><?php echo _("To many people, music is a powerful part of their personal life. Learning to play an instrument can help people to gain more concentration and release stress. From my years of teaching and personal learning experience, I can say that playing piano is not easy. But if you can start your piano lessons on the right path, it can save you time and energy and allow you to experience the joy of playing piano. The piano is different from other instruments. It is self-sufficient. It can create a melody and harmonize with chords at the same time. Also, unlike other instruments, a piano doesn't need to be tuned every time it is played. Learning to play the piano is also very helpful in developing a good ear for music and understanding music theory."); ?></p>
+			<div class="row learn-wrapper">
+				<div class="col-sm-6">
+					<p id="learn"><?php echo _("To many people, music is a powerful part of their personal life. Learning to play an instrument can help people to gain more concentration and release stress. From my years of teaching and personal learning experience, I can say that playing piano is not easy. But if you can start your piano lessons on the right path, it can save you time and energy and allow you to experience the joy of playing piano. The piano is different from other instruments. It is self-sufficient. It can create a melody and harmonize with chords at the same time. Also, unlike other instruments, a piano doesn't need to be tuned every time it is played. Learning to play the piano is also very helpful in developing a good ear for music and understanding music theory."); ?></p>
 				</div>
+			<div class="col-sm-6">
 				<img class="piano img-responsive" src="images/mypiano.jpg" alt="my piano">
+			</div>
 			</div>
 
 		</div>
@@ -182,7 +185,7 @@
 				</section>
 		</div><!--/.sfooter-content -->
 		<footer>
-			<p>copyright</p>
+			<p>&copy;2016 Ellen Liu</p>
 		</footer>
 		</div><!-- container-->
 	</body>
