@@ -91,9 +91,9 @@
 									<a href="#link" class="dropdown-toggle" data-toggle="dropdown" role="button"
 										aria-haspopup="true" aria-expanded="false"><?php echo _("Links"); ?><span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="http://imslp.org/"><?php echo _("IMSLP"); ?></a></li>
-										<li><a href="http://a.bestmetronome.com/"><?php echo _("Metronome"); ?></a></li>
-										<li><a href="https://www.musictheory.net/"><?php echo _("Music theory"); ?></a></li>
+										<li><a href="http://imslp.org/" target="_blank"><?php echo _("IMSLP"); ?></a></li>
+										<li><a href="http://a.bestmetronome.com/" target="_blank"><?php echo _("Metronome"); ?></a></li>
+										<li><a href="https://www.musictheory.net/" target="_blank"><?php echo _("Music theory"); ?></a></li>
 									</ul>
 								</li><!--/.dropdown for link -->
 								<li><a href="index.php#contact"><?php echo _("Contact Me"); ?></a></li>
