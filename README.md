@@ -36,3 +36,12 @@ All in all this is good work. There are some directory structure issues with the
 - Move your /Media and /css directories inside of /public_html
 - the Media directory should be lowercase
 
+
+## Milestone 3/Final Feedback
+Great work here Ellen. Your content is excellent, and you've done a great job getting the contact form working. Your HTML and CSS is clean and well written. Going forward, continue to work on giving the User Interface and Design a little polish, and consider implementing a template structure. Your Milestone 3/Final PWP passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Nice work.
+
+### Edits &amp; Suggestions
+- Media directory should be lower case
+- A cleaner structure would be to create directories for each sub page, then create the pages in an index.php file inside. For example: /public_html/about/index.php Then your URLs would look like: ellenliu.com/about
+- Consider using PHP templating
+- Work a bit more on CSS and design. The layout works on mobile, but could use a little polishing for an improved UI.
